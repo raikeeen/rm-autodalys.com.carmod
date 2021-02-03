@@ -37,7 +37,15 @@ if(!function_exists('Ln_x')){
 	<div class="CmSearchClear"><div id="CmSearchResult" class="c_Border CmSearchRes<?=$SearchPosition?>"></div></div>
 </div>
 <script type="text/javascript">
+    $(document).ready(function($) {
+        var VinNum = $('#VinNumValue').val();
+        if (VinNum.length == 17) {
+            CmVinNum();
+        } else {
+            CmSearch();
+        }
 
+    }
 </script>
 <script type="text/javascript">
 $(document).ready(function($){
