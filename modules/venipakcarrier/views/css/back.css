@@ -1,0 +1,118 @@
+#venipak_popup { min-height: 500px; }
+
+#venipak_popup .tabs-menu {
+    height: 30px;
+    float: none;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+#venipak_popup .tabs-menu li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+    background-color: #ccc;
+    border-top: 1px solid #d4d4d1;
+    border-right: 1px solid #d4d4d1;
+    border-left: 1px solid #d4d4d1;
+}
+
+#venipak_popup .tabs-menu li.current {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 5;
+}
+
+#venipak_popup .tabs-menu li a {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+#venipak_popup .tabs-menu .current a {
+    color: #2e7da3;
+}
+#venipak_popup .orders-title {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 5px 0;
+    padding: 0;
+}
+#venipak_popup .manifest-wrapper {
+    margin: 0 0 10px;
+}
+#venipak_popup .manifest-title {
+    display: inline-block;
+    font-size: 1.2em;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+#venipak_popup .manifest-close-wrap {
+    display: inline-block;
+}
+#venipak_popup .tab {
+    border: 1px solid #d4d4d1;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#venipak_popup .tab-content {
+    width: 660px;
+    padding: 20px;
+    display: none;
+}
+
+#venipak_popup .tab > .tab-content:first-child {
+ display: block;
+}
+
+.courrier-call-form .call-times-select { display: none; width: auto; }
+.courrier-call-form .call-times-select select { display: inline-block; float: left; margin-right: 10px; width: 70px;}
+.courrier-call-form .call-times-select.active { display: inline-block; }
+.courrier-call-wrapper {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 4px;
+    position: relative;
+    width: 100%;
+}
+.courrier-call-form {
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    display: none;
+    left: 0;
+    padding: 25px 10px 10px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+}
+.courrier-call-form .form-row { padding: 0 0 8px; }
+.courrier-call-form .form-row label {
+    display: block;
+    margin-bottom: 2px;
+}
+.courrier-call-form.open { display: block; }
+.courrier-call-form .close-button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.courrier-called { color: #CF302E; font-size: 1.2; }
+
+.responseVenipak {
+    margin-top: 15px;
+}
+
+#venipakOrderSubmitBtn { float: left; margin: 5px 5px 5px 5px; }
+#venipakOrderPrintLabels { margin: 5px 0; }
+

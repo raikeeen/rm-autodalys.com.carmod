@@ -1,0 +1,35 @@
+.venipak-order-comments .field-row {
+    margin-top: 10px;
+}
+
+.venipak-order-comments .field-row label {
+    font-weight: bold;
+}
+
+.venipak-order-comments .form-control {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.venipak-order-comments .hidden, #venipak-additional-info .hidden {
+    display: none !important;
+}
+
+.venipak-order-comments {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.venipak-order-comments select, .venipak-order-comments select .select2 {
+    width: 100% !important;
+    overflow: hidden;
+}

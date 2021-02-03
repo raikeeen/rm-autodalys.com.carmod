@@ -1,0 +1,240 @@
+#CmMSelectAdd{
+	position:relative;
+	/*padding:0px 0px 0px 16px;*/
+	-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}
+
+@media screen and (max-width: 768px) {
+	div.CmMSelectTable {
+		margin-bottom: 10px;
+	}
+}
+
+.CmMSelectBlock{position:relative; align-self:flex-start; margin-bottom:3px;}
+.CmMSelectTable{display:flex; align-items:center; justify-content:flex-end;}
+.CmMSelectTableSeTD{display:flex; flex-direction:column; align-items:center; align-self:flex-start;}
+.CmMselBoxWrap{display:flex; flex-direction:row; flex-wrap:wrap; position:relative; width:100%;}
+.CmMSelectBox{position: relative;z-index: 779;/*transform: translate(-54%, 0)*/;flex-grow:1;}
+.CmResetSettings{fill:#909090; cursor:pointer; position:absolute; top:3px; right:3px; width:20px; transition:all 0.3s;}
+.CmSelModelTxt{display:flex; justify-content:center; align-items:center; margin:8px 0px 0px 2px; align-self:flex-start;}
+.CmSelModelTxt span{white-space:nowrap;}
+.CmSelModPic{margin-right:5px;}
+.CmSelModelTxt span{font-size:13px;}
+.CmSelModSvg{width:11px; height:11px;}
+.CmSelectedModTxt{cursor:pointer; display:flex; justify-content:space-between; align-items:flex-start; margin-top:5px;}
+a.CmSelModelLink{display:flex; flex-direction:column; margin:0px 10px 0px 4px; color:#505050; max-width:360px;}
+a.CmSelModelLink:hover{text-decoration:underline !important;}
+#CmSelModNTxt{font-size:12px; line-height:16px; white-space:normal;}
+.CmSelModelLink span{font-size:9px;}
+
+/* Vehicle Image block */
+.CmMSelectVehicle{ position:relative; padding:0px; width:180px; height:80px; text-align:center; background:#ffffff url("media/mselect.jpg") center center no-repeat; background-size:100%;}
+.CmMSelectVehicle .CmMSelectLoading{left:65px; top:45px;}
+.CmSelModelImg{display:flex; flex-direction:column; align-items:center; position:relative; padding: 20px;}
+.CmSelModelImg a{display:flex;}
+.CmAddGarBl{cursor:pointer; display:flex; justify-content:center; align-items:center; position:absolute; top:-12px;}
+.CmAddGarSvg{width:12px; height:12px; margin-right:5px;}
+
+
+
+/* Main buttons */
+.CmMSelectBut{display:flex; justify-content:space-between; align-items:center; overflow:hidden; text-overflow:ellipsis;	position:relative; white-space:nowrap; color:#c8c8c8 !important; font-size:12px; text-shadow:1px 1px 1px #ffffff !important; background:linear-gradient(#ffffff,#e4e4e4); line-height:32px; vertical-align: middle; font-family:Verdana; padding:0px 14px 0px 14px; border:1px solid #b3b3b3; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.4); -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.4); box-shadow: 1px 1px 2px rgba(0,0,0,0.4); }
+.CmSelTypeNameBl, .CmSelModNameBl, .CmSelManufNameBl{margin-right:10px; overflow:hidden; text-overflow:ellipsis;}
+.CmMSelectBut:hover{cursor:pointer; background:linear-gradient(#ffffff,#efe9da);}
+.CmMSelectBut span{font-weight:bold; color:#4f5257;}
+.CmMSelectBox{margin:0px 3px 5px 3px;}
+.CmMSelectActive{ border-bottom:none; z-index:778; box-shadow:1px -1px 2px rgba(0,0,0,0.2); background: -webkit-linear-gradient(#e1e1e1,#fff)!important; background: -moz-linear-gradient(#e1e1e1,#fff)!important; background: -o-linear-gradient(#e1e1e1,#fff)!important; background:linear-gradient(#e1e1e1,#fff)!important; -moz-border-radius-bottomleft:0px; -webkit-border-bottom-left-radius:0px; border-bottom-left-radius:0px;  -moz-border-radius-bottomright:0px; -webkit-border-bottom-right-radius:0px; border-bottom-right-radius:0px; }
+
+/* Disabled buttons */
+.CmMSelectDisabled{color:#d6d6d6!important; background:linear-gradient(#ffffff,#d6d6d6)!important;}
+.CmMSelectDisabled:hover{cursor:default!important;}
+
+/* Drop down options menu */
+.CmMSelectDown{left:0px !important; width:100%; color:#929292; position:absolute; margin-top:5px; background:#ffffff; padding:18px; text-align:center; display:none; z-index:777; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -moz-box-shadow:4px 6px 20px rgba(0,0,0,0.4); -webkit-box-shadow:4px 6px 20px rgba(0,0,0,0.4); box-shadow:4px 6px 20px rgba(0,0,0,0.4); }
+.CmMSelectDown table div{color:#929292; padding:4px 9px; white-space:nowrap;}
+.CmMSelectDown table div b{color:#4e4e4e; font-family:Verdana;}
+.CmMSelectDown table div:hover{color:#ffffff!important; cursor:pointer;}
+.CmMSelectDown table div:hover b{color:#ffffff!important; cursor:pointer;}
+div.CmMSelectDownRight{right:unset !important;}
+
+/* Years */
+.CmMSelectYear{width:50px; float:left; font-weight:bold; padding:6px 0px; color:#929292;}
+.CmMSelectYear:hover{color:#ffffff!important; cursor:pointer;}
+/*.CmMSelectYearCut{clear:both; border-bottom-width:1px; border-bottom-style:solid;}*/
+.CmYearGroupInner{display:grid; grid-template-columns:repeat(5, 1fr); border-bottom-width:1px; border-bottom-style:solid;}
+
+/* Manufacturer Groups */
+.CmMSelectGroups{border-bottom-width:1px; border-bottom-style:solid; margin-bottom:5px; display:grid; grid-template-columns:repeat(3,1fr);}
+.CmMSelectMfTab{overflow:auto; max-height:400px;}
+.CmManufInner{display:grid; /*grid-template-columns:repeat(3, 1fr);*/}
+.CmMSelectYearInner{display:grid; grid-template-columns:repeat(6, 1fr);}
+.CmMSelectGrTab{color:#737272; font-size:14px; padding:8px 20px; transition:all 0.2s;}
+.CmMSelectGrTab:hover{cursor:pointer; padding-top:5px; padding-bottom:11px;}
+.CmMSelectGrActive{font-weight:bold;}
+.CmMSelectManuf{font-weight:bold; /*white-space:nowrap;*/ margin:0px 1px 1px 0px; padding:6px 8px; text-align:left!important; color:#737272;}
+.CmMSelectManuf:hover{color:#ffffff!important; cursor:pointer; background-color:#1467c1;}
+div.CmMSelectDownManuf{/*width:unset !important;*/}
+
+
+/* Models/Types */
+.CmModelSelWrap{max-height:400px; max-width:350px; /*min-width:180px;*/ flex-direction:column; align-items:flex-start;}
+.CmSelModBlock{overflow:auto; max-height:400px; width:100%;}
+.CmMSelectList{font-size:12px; color:#737272; border-bottom:1px solid #e1e1e1; padding:5px 6px; text-align:left!important;}
+.CmMSelectList:hover{color:#ffffff!important; cursor:pointer; background-color:#1467c1;}
+.CmMSelectList b{color:#4e4e4e;}
+.CmMSelectList:hover b{color:#ffffff!important;}
+/* .CmMSelectRowsTab td{border-left-width:1px; border-left-style:solid;}
+.CmMSelectRowsTab tr td:first-child{border-left-width:0px!important;}*/
+/*Filter Model by Leter*/
+.CmSelModSearch{line-height:24px; padding:0px 0px 0px 8px; margin-bottom:10px; border-style:solid; border-width:1px; border-radius:3px; width:100%; text-transform:uppercase;}
+.CmSelModSearch::-webkit-input-placeholder{text-transform: none;color: #464646;font-weight: normal;}
+.CmSelModSearch::-moz-placeholder{text-transform: none;color: #464646;font-weight: normal;}
+.CmSelModSearch:-moz-placeholder{text-transform: none;color: #464646;font-weight: normal;}
+.CmSelModSearch::-ms-input-placeholder{text-transform: none;color: #464646;font-weight: normal;}
+.CmSelModSearch:focus::-webkit-input-placeholder{color: #d1d1d1;}
+.CmSelModSearch:focus::-moz-placeholder{color: #d1d1d1;}
+.CmSelModSearch:focus:-moz-placeholder{color: #d1d1d1;}
+.CmSelModSearch:focus::-ms-input-placeholder{color: #d1d1d1;}
+.CmSelTypeKwHp{font-size:10px;}
+.CmFilterWrapBl{position:relative;}
+.CmSelClearBut{display:none; width:18px; height:15px; position:absolute; top:1px; right:-10px; padding:5px; border-radius:0px 3px 3px 0px; transition:all 0.3s;}
+.CmSelClearBut:hover{fill:#ffffff;}
+
+/*Engine Select*/
+.CmEngineSelWrap{overflow:auto; max-height:400px;}
+
+
+/* Left block position */
+.CmMSelectDownLeft{left:0px!important;}
+.CmMSelectPositionLeft{float:left!important;
+	margin:0px 10px 0px -20px;
+}
+
+/* Right block position */
+/*.CmMSelectDownRight{right:0px!important;}*/
+/*.CmMSelectPositionRight{float:right!important; */
+/*	margin:0px 0px 10px 0px;*/
+/*}*/
+
+/* LOADING */
+.CmMSelectLoading{top:10px; left:8px; display:none; position:absolute; width:64px;}
+.CmMSelectLoading div{position:absolute; width:11px; height:11px; border-radius:50%; animation-timing-function: cubic-bezier(0, 1, 1, 0);}
+.CmMSelectLoading div:nth-child(1){left:6px; animation: CmMSelectLoading1 0.6s infinite;}
+.CmMSelectLoading div:nth-child(2){left:6px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmMSelectLoading div:nth-child(3){left:26px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmMSelectLoading div:nth-child(4){left:45px; animation:CmMSelectLoading3 0.6s infinite;}
+@keyframes CmMSelectLoading1{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@keyframes CmMSelectLoading3 {
+	0%{transform:scale(1);}
+	100%{transform:scale(0);}
+}
+@keyframes CmMSelectLoading2 {
+	0%{transform:translate(0,0);}
+	100%{transform:translate(19px,0);}
+}
+
+/*GARAGE*/
+.CmSelModNameGarButWrap{position: relative;left: 20%;padding: 10px 0 0 0;/*transform: translate(-51%, 0px)*/;display:flex; justify-content:space-between; align-items:center; width:100%;}
+.CmModGarageWrap{width:100%;}
+.CmGarageBlock, .CmMobGarlock{position:relative;}
+.CmMobGarlock{display:none;}
+.CmSelMyGarOpen, .CmSelGarOpen{cursor:pointer;}
+.CmSelMyGarOpen:hover{background-color:#1467c1;}
+.CmGarageBlock{margin-right:3px;}
+.CmSelMyGarOpen, .CmSelAddGarage{display:flex; align-items:center; justify-content:center; padding:3px 6px; border:1px solid #1467c1; border-radius:3px;}
+.CmGarageBlock .CmSelMyGarOpen:hover>span, .CmMobGarlock .CmSelMyGarOpen:hover>span{color:#ffffff !important;}
+.CmGarageBlock .CmSelMyGarOpen:hover>svg, .CmMobGarlock .CmSelMyGarOpen:hover>svg{fill:#ffffff !important;}
+.CmSelAddGarBlock{justify-content:space-between; align-self:center;}
+.CmSelAddGarage{background:linear-gradient(#ffffff, #dfffc8); border-radius:3px 0px 0px 3px; border-right:none; cursor:pointer; white-space:nowrap;}
+.CmSelAddGarage:hover{background: linear-gradient(#ffffff, #ffe8e8); color: #ff0000 !important; border-color: #ffb3b3; text-shadow: 1px 1px 1px #ffffff;}
+.CmSelAddGarage:active{background-color:#51b50f; color:#ffffff;}
+.CmSelGarSvgBlock{border-radius:0px 3px 3px 0px; display:flex; border-width:1px; border-style:solid; border-left:none; background-color:#1467c1;}
+.CmSelGarSvgBlock:hover{background-color:#ffffff}
+.CmSelGarSvgBlock:hover svg{background-color:#ffffff}
+.CmSelGarEmpty{background-color:#adadad !important; border-radius:0px 3px 3px 0px; display:flex; border-width:1px; border-style:solid; border-left:none;}
+.CmSelMyGarOpen, .CmSelAddGarBlock{display:none;}
+div#CmModSelector svg.CmSelGarageFull, div#CmModSelector svg.CmGarageSvg{width:20px; height:20px; fill:#ffffff; margin:auto; padding:3px; display:none;}
+svg.CmGarageSvg:hover{fill:#1467c1 !important;}
+.CmGarEmptySvg{width:26px; height:26px; fill:#505050; padding:4px; margin-right:5px;}
+span.CmSelEmptyTxt{color:#505050; margin-right:0px;}
+.CmGarageFull{width:20px; height:20px; fill:#1467c1; margin:auto;}
+.CmMyGarage{margin-right:5px; white-space:nowrap; color:#1467c1;}
+.CmGarDropDown{z-index:999999; display:none; min-width:250px; max-width:500px; position:absolute; right:-1px; top:-1px; background-color:#ffffff; flex-direction:column; align-items:flex-start; border-style:solid; border-width:1px; border-radius:3px; box-shadow:2px 2px 8px rgba(0,0,0,0.4);}
+div.CmGarDropDown a.CmSelModelLink{text-decoration:none !important;}
+.CmSelGarTitle, .CmSelFavVehTitle{display:flex; align-items:center; justify-content:space-between; position:relative; padding:6px 6px 6px 12px; background-color:#1467c1;}
+.CmSelTitleTxt{color:#ffffff; font-size:14px;}
+svg.CmSelSvgImBlock{display:none !important;}
+span.CmSelFavBut{display:none; margin-right:5px !important; margin-top:5px; align-self:flex-start; }
+.CmSelFavItemWrap{width:100%; border-bottom-style:solid; border-bottom-width:2px;}
+.CmSelFavSvg{width:16px; height:16px; fill:#808080;}
+.CmSelFavorVehicle{display:none;}
+.CmModInGarItem{overflow:auto;}
+.CmSelGarItemWrap{display:flex; justify-content:flex-start; align-items:center; border-bottom:1px solid #cdcdcd; padding-left:8px;}
+.CmSelGarItemWrap:last-child{border-bottom:none;}
+.CmModInGarItem{display:flex; overflow:auto; max-height:250px; flex-direction:column; align-items:flex-start; white-space:nowrap;}
+.CmModInGarItem span{margin-right:10px;}
+#CmDelSelMod{width:18px; height:18px; fill:#000000; margin-left:5px; flex-shrink:0; cursor:pointer;}
+.CmSelImgNameBl{display:flex; justify-content:space-between; align-items:center; padding:5px 8px 5px 5px; width:100%;}
+.CmSeModImg{width:120px; margin-right:5px; display:flex;}
+.CmSeModImg img{margin:auto; width:100%;}
+.CmSelCloseGar{width:20px; height:20px; fill:#ffffff; position:absolute; top:4px; right:7px; cursor:pointer;}
+#CmSelAddInfo{color:#909090;}
+.CmSelGarEmpMess{display:flex; align-items:center; justify-content:center; line-height:40px;}
+
+
+
+
+/* Adaptivity */
+@media screen and (max-width:960px){
+	.CmMSelectPositionRight{border-radius:0px;}
+	.CmMSelectPositionLeft{border-radius:0px; }
+ 	.CmFloatLeft{margin-bottom:10px;}
+ 	.CmMSelectBlock{margin:1% 0px;}
+}
+@media screen and (max-width:840px){
+}
+@media screen and (max-width:760px){
+	.CmHeadTitleWrapBlock{flex-direction:column;}
+	.CmTitleBradWrap{align-self:flex-start;}
+}
+@media screen and (max-width:640px){
+	#CmMSelectAdd{padding:0px 20px;}
+	.CmMSelectDownRight{left:0px!important; }
+	.CmMSelectTable{width:100%; flex-direction:column;}
+	.CmMSelectPositionRight{ align-self:center; width:100%}
+	.CmMSelectTableSeTD{align-self:unset; margin-top:10px; order:2; width:100%;}
+	a.CmSelModelLink{white-space:normal; max-width:unset;}
+	.CmGarageBlock{position:unset;}
+	.CmGarDropDown{right:unset; top:unset; left:0;}
+	.CmMobGarlock{display:block; align-self:flex-end; margin-left:3px;}
+	.CmGarageBlock{display:none;}
+	.CmSelModelImg{flex-direction:row; justify-content:space-between; width:100%;}
+	.CmSelGarItemWrap{flex-direction:column; padding-top:8px;}
+	.CmSelImgNameBl{width:95%;}
+	.CmSelModNameGarButWrap{align-self:flex-start;}
+}
+@media screen and (max-width:520px){
+    .CmMselBoxWrap{width:100%;}
+    div.CmTopBox{justify-content:center !important;}
+}
+@media screen and (max-width:480px){
+    .CmMSelectBox{width:100%;}
+    .CmMSelectManuf{width:auto;}
+    .CmMSelectDown{margin:0px!important;}
+    .CmMSelectLoading{top:7px;}
+    .CmMSelectMfTab{float:none; display:flex; flex-direction:column;}
+    .CmYearGroupInner{grid-template-columns:repeat(4,1fr);}
+    .CmMSelectManuf{font-size:11px; padding:9px;}
+    .CmMSelectGrTab{font-size:12px;}
+    .CmManufInner{grid-template-columns:repeat(2, 1fr);}
+    .CmMSelectGrTab{padding:8px 10px;}
+    .CmMSelectList{padding:9px;}
+    .CmMSelectYear{padding:8px; border-bottom:1px solid #cdcdcd; border-right:1px solid #cdcdcd;}
+    .CmMSelectActive{margin-bottom:0px !important;}
+    .CmSelectedModTxt{flex-direction:column; align-items:center;}
+    .CmGarageBlock, .CmMobGarlock{position:unset;}
+    .CmMSelectVehicle{width:160px; border-radius: 10px;}
+}

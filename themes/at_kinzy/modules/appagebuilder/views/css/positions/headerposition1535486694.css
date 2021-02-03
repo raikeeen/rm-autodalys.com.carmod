@@ -1,0 +1,136 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.header-top .box-header {
+  background: #f5f5f5;
+  padding: 0;
+  margin: 0 0 30px; }
+
+.header-flex .center-header {
+  position: relative !important; }
+
+@media (min-width: 576px) {
+  #cart-block {
+    padding: 0; }
+    #cart-block .cart-preview .header {
+      background: #f5f5f5; }
+      #cart-block .cart-preview .header .title_cart {
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+        font-weight: 600; }
+      #cart-block .cart-preview .header .cart-unit {
+        display: inline-block; }
+      #cart-block .cart-preview .header .cart-products-count {
+        color: #666666;
+        font-weight: 400; }
+      #cart-block .cart-preview .header i {
+        background: #1467c1;
+        color: #FFFFFF;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center; }
+    #cart-block .cart-preview .cart-quantity {
+      position: relative;
+      width: auto;
+      height: auto;
+      background: transparent;
+      color: #222;
+      top: inherit;
+      right: inherit;
+      font-size: 14px;
+      padding: 0 15px; } }
+
+.leo-megamenu .navbar-nav > li {
+  border-right: 1px solid rgba(143, 143, 143, 0.25); }
+  .rtl .leo-megamenu .navbar-nav > li {
+    border-left: 1px solid rgba(143, 143, 143, 0.25);
+    border-right: inherit; }
+  .leo-megamenu .navbar-nav > li > a {
+    padding: 17px 0;
+    margin: 0 30px; }
+  .leo-megamenu .navbar-nav > li:first-child > a {
+    margin: 0 30px 0 30px; }
+    .rtl .leo-megamenu .navbar-nav > li:first-child > a {
+      margin: 0 30px 0 30px; }
+
+@media (max-width: 767px) {
+  #leo_search_block_top .block_content .list-cate-wrapper {
+    display: none; } }
+@media (min-width: 992px) {
+  #leo_search_block_top form {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none; }
+  #leo_search_block_top #click_show_search {
+    display: none; } }
+
+/* Skin */
+@media (min-width: 576px) {
+  .blue #cart-block .cart-preview .header i {
+    background: #6AAFE6; }
+  .blue #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .deeppink #cart-block .cart-preview .header i {
+    background: #FF1493; }
+  .deeppink #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .green #cart-block .cart-preview .header i {
+    background: #8bc43f; }
+  .green #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .lime #cart-block .cart-preview .header i {
+    background: #41A317; }
+  .lime #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .olive #cart-block .cart-preview .header i {
+    background: #808000; }
+  .olive #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .purple #cart-block .cart-preview .header i {
+    background: #8A2CB1; }
+  .purple #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+@media (min-width: 576px) {
+  .yellow #cart-block .cart-preview .header i {
+    background: #edb42c; }
+  .yellow #cart-block .cart-preview .cart-quantity {
+    background: transparent; } }
+
+/*# sourceMappingURL=headerposition1535486694.css.map */

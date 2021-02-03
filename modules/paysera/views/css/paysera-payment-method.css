@@ -1,0 +1,26 @@
+a.paysera-payment-choice {
+    background-image: url('../img/icon-128x128.png');
+    padding-left: 150px;
+    background-size: 64px;
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+a.paysera-payment-choice:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777;
+}
+
+#payseraPaySubmit {
+    margin-bottom: 12px;
+}

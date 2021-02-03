@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="99dea78007133396a7b8ed70578ac6ae">
+        <source>Login</source>
+        <target>Prisijungti</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0ba7583639a274c434bbe6ef797115a4">
+        <source>Register</source>
+        <target>Registruotis</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="61510747c34b6b7f74d31eb190499248">
+        <source>Existing Account Login</source>
+        <target>Turite paskyrą?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="15cb3b43610751d8b2e241abfba63e10">
+        <source>Login to your account</source>
+        <target>Prisijungti prie paskyros</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="643a860f992333b8600ea264aca7c4fc">
+        <source>Email Address</source>
+        <target>El. Paštas</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dc647eb65e6711e155375218212b3964">
+        <source>Password</source>
+        <target>Slaptažodis</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e857817b07c27f3c57caa6c40f7499d4">
+        <source>Remember Me</source>
+        <target>Prisiminti Mane</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9ec54ec336b65da6179cf750de33ecd7">
+        <source>Forgot Password</source>
+        <target>Pamiršote Slaptažodį?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="952998528c20798fbd22b49d505a29d5">
+        <source>No account? Create one here</source>
+        <target>Neturite paskyros? Sukurkite čia</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6072e83b7f35887c76e64920bd370f4a">
+        <source>Reset Password</source>
+        <target>Atstatyti Slaptažodį</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="15f7f61f5eaae493833d71c127eb9f05">
+        <source>New Account Register</source>
+        <target>Sukurkite Paskyrą</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bc910f8bdf70f29374f496f05be0330c">
+        <source>First Name</source>
+        <target>Vardas</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="77587239bf4c54ea493c7033e1dbf636">
+        <source>Last Name</source>
+        <target>Pavardė</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2fe4fe0a0ebea41ce43eb3dc3fce4ea3">
+        <source>Create an Account</source>
+        <target>Sukurkite Paskyrą</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="21bdc5689c12595ae14298354d5550d5">
+        <source>Already have an account?</source>
+        <target>Jau turite paskyrą?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="88527c251ccdf30e9191e77df2b0a50b">
+        <source>Log in instead</source>
+        <target>Prisijunkite</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3a2d5fe857d8f9541136a124c2edec6c">
+        <source>Or</source>
+        <target>Arba</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+.CmSearchTab{border-collapse:collapse!important;}
+.CmSearchTab td{border:1px solid #c1c1c1!important; padding:0px!important;}
+.CmSearchBox{display:block; background:#ffffff; padding:7px 16px; min-width:240px;}
+.CmSearchBrand{font-weight:bold; font-size:14px; color:#5a5a5a;} 
+.CmSearchArtNum{font-style:italic; color:#5a5a5a;}
+.CmSearchBox sup{font-size:8px; color:#5a5a5a;}
+.CmSearchName{white-space:nowrap;}
+.CmSearchActive{transition:all 0.3s;}
+.CmSearchIgnored{background:#ececec; color:#717171; padding:4px 16px; font-size:11px;}
+.CmSearchIgnored .CmSearchBrand{color:#777777; font-size:12px; text-shadow:1px 1px 1px #ffffff;}
+.CmSearchPrice{white-space:nowrap; float:right; margin-left:16px; color:#009610;}
+.CmSearchPrice span{font-weight:bold;}
+.CmSearchImage{width:60px; height:46px; float:left; background-color:#ffffff; background-size:contain; background-repeat:no-repeat; background-position:50% 50%; margin:0px 5px;}
+.CmSearchNotFound{font-size:14px; min-width:250px; line-height:40px; color:#6d6d6d;}
+
+/* Hover */
+.CmSearchActive:hover .CmSearchName{color:#ffffff; text-shadow:1px 1px 1px #383838;}
+.CmSearchActive:hover .CmSearchBrand{color:#ffffff; text-shadow:1px 1px 1px #000000;}
+.CmSearchActive:hover .CmSearchPrice{color:#ffffff;}
+.CmSearchActive:hover .CmSearchArtNum{color:#e0e0e0;}
+.CmSearchIgnored:hover{background:#f3f3f3;} 

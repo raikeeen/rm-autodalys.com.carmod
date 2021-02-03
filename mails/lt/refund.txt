@@ -1,0 +1,15 @@
+{shop_url}
+
+Sveiki, {firstname} {lastname},
+
+Užsakymo ID {order_name} - Grąžinimo aktas apdorotas
+
+Mes atlikome grąžinimą už Jūsų užsakymą {order_name} iš {shop_name}.
+
+Norėdami sekti savo užsakymą ir atsisiųsti sąskaitą, eikite į [Užsakymų istorija ir duomenys]({history_url}) skiltį savo paskyroje.
+
+Jei turite svečio paskyrą, galite sekti užsakymo būseną per [Svečių pirkėjų sekimo funkciją]({guest_tracking_url}) mūsų parduotuvėje.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

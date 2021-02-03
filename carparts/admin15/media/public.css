@@ -1,0 +1,93 @@
+/* COMMON */
+.CmAdmFlexColBox{display:flex; flex-wrap:nowrap; flex-direction:column; position:relative;}
+.CmAdmFlexRowBox{display:flex; flex-wrap:wrap; flex-direction:row; align-items:center; position:relative;}
+.CmAdmPartTitle{color:#fa6a00; font-weight:bold; font-size:18px; font-family:Calibri; padding:8px 0px;}
+.CmAdmTip{font-size:12px; font-family:Tahoma; color:#a4a4a4;}
+.CmAdmParts div{padding:10px; font-size:14px; font-family:Verdana; color:#000000;}
+.CmAdmParts input{padding:8px; font-size:14px; font-family:Verdana; color:#000000; border:1px solid #c1c1c1;}
+.CmAdmButton{padding:9px!important; font-size:12px!important; font-family:Verdana; border:1px solid #fa6a00; color:#fa6a00!important;}
+.CmAdmButton:hover{cursor:pointer; background:#fa6a00; color:#ffffff!important; border:1px solid #000000;}
+.CmOrgLink{color:#007ffa!important;}
+.CmOrgLink:hover{color:#fa6a00!important;}
+.CmOrgLink:visited{color:#007ffa!important;}
+
+/* Public Side Popup */
+.CmPubAdmPopup{position:fixed; overflow:auto; left:0; top:0; display:none!important; text-align:center; white-space:nowrap; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:999;}
+.CmPubAdmPopup::after{display:inline-block; vertical-align:middle; width:0; height:100%; content:'';}
+.CmPubAdmModal{display:inline-block; vertical-align:middle; }
+.CmPubAdmCont{margin:0px; padding:20px 50px 50px 50px; text-align:center; white-space:normal; background-color:#F2F2F2; color:#000; box-shadow:0px 3px 6px rgba(0,0,0,0.6); border:3px solid #fa6a00;}
+
+/* Light Popup for public*/
+#AjaxPopupLoad_x{position:fixed; left:0; top:0; width:100%; height:100%; display:none; text-align:center;  white-space:nowrap; background-color:rgba(0,0,0,0.3); z-index:99999; overflow:auto;}
+#AjaxPopupLoad_x::after{display:inline-block; vertical-align:middle; width:0; height:100%; content:'';}
+.AjaxPopupLoader_x{display:inline-flex; vertical-align:middle;}
+.fxOverlay_adm{position:fixed; overflow:auto; left:0; top:0; display:none; text-align:center; white-space:nowrap; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:9999;}
+.fxOverlay_adm::after{display:inline-block; vertical-align:middle; width:0; height:100%; content:'';}
+.fxModal_adm{display:inline-flex; vertical-align:middle; }
+.fxCont_adm{margin:0px; padding:20px; min-width:750px; min-height:500px; text-align:left; white-space:normal; background-color:#fff; color:#000; box-shadow:0px 3px 6px rgba(0,0,0,0.6); border:3px solid #fa6a00;}
+
+/* Edit buttons */
+.CmEditProductImg{float:left; margin-left:4px; z-index:88;}
+.blockProdFoto .CmEditProductImg{left:2%; top:2%;}
+.CmEditProductImg svg:hover{cursor:pointer; fill:#ff0000!important;}
+.CmEditProductLink{float:left; margin-left:4px; z-index:88;}
+.CmEditProductLink svg:hover{cursor:pointer; fill:#ff0000!important;}
+.CmEditProductData{float:left; margin-left:4px; z-index:88;}
+.CmEditProductData svg:hover{cursor:pointer; fill:#ff0000!important;}
+
+/* Edit image window */
+.CmAdmImgPrev{width:150px; height:150px; font-size:11px!important; margin:0px 15px 20px 0px; position:relative; float:left; border:1px solid #c1c1c1;
+ background-size:contain; background-repeat:no-repeat; background-position:50% 50%;}
+.CmAdmImgPrev:hover{border:1px solid #fa6a00; color:#000000; cursor:pointer;}
+.CmAdmImgTrash{position:absolute; right:10px; bottom:10px;}
+.CmAdmImgTrash svg{fill:#c1c1c1; position:absolute; right:2px; bottom:2px;}
+.CmAdmImgTrash svg:hover{cursor:pointer; fill:#fa6a00;}
+.CmAdmImgSort{display:flex; flex-wrap:wrap; flex-direction:row; align-items:center; justify-content:space-between; position:relative; background-color:rgba(255,255,255,0.5); padding:4px; color:#878787; font-size:14px!important;}
+.CmAdmImgSort .ImgSort:hover{cursor:pointer; color:#fa6a00!important;}
+.CmAdmInfo{position:absolute; left:10px; bottom:10px; color:#c1c1c1;}
+
+/* Edit Link window */
+.CmAdmGLinkBox{display:flex; flex-wrap:nowrap; flex-direction:row; padding:10px; margin:0px;}
+.CmAdmGLinkSelect{height:15px; padding:10px!important; margin:0px 10px 0px 0px; font-size:12px!important; font-family:Verdana; border:1px solid #fa6a00; color:#fa6a00!important; font-weight:bold; }
+.CmAdmGLink{color:#949494; margin-top:5px;}
+.CmAdmGPrc{color:#128400; margin-top:5px;}
+.CmAdmGLinkSelect:hover{cursor:pointer; background:#fa6a00; color:#ffffff!important; border:1px solid #000000;}
+.CmAdmGLinkSelected{width:64px;}
+.CmAdmGLinkArts{display:flex; flex-wrap:nowrap; flex-basis:95%; }
+.CmAdmArtPrev{min-width:80px; height:80px; font-size:11px!important; margin:0px 3px 2px 3px; position:relative; float:left; border:1px solid #c1c1c1;
+ background-size:contain; background-repeat:no-repeat; background-position:50% 50%; overflow:hidden; background-color:#ffffff;}
+.CmAdmArtPrev a{position:absolute; left:2px; bottom:2px; font-size:9px; color:#fa6a00;}
+.CmAdmArtPrev a:hover{text-decoration:underline;}
+.CmAdmGLinkPName{color:#868686; padding:6px 0px 2px 83px; border-top:1px solid #c1c1c1;}
+.CmAdmGLinkTrash{float:right; fill:#c1c1c1; font-size:10px; color:#c1c1c1; font-weight:normal;}
+.CmAdmGLinkTrash:hover{cursor:pointer; fill:#fa6a00;}
+.CmAdmGLinkDisable{padding:15px; border:1px solid #fa6a00; background:#ffeee1;}
+
+
+/* Edit Product window */
+.CmAdmSlideBox{}
+.CmAdmSlideTitle{padding:6px 10px 3px 0px; font-size:12px; color:#656565;}
+.CmAdmSlideTitle:hover{cursor:pointer; color:#fa6a00;}
+.CmAdmSlideCont{display:none;}
+.MiniTab{border-collapse:collapse;}
+.MiniTab td{padding:3px 6px!important; border:1px solid #c1c1c1;}
+.MiniTab .TxLf{text-align:left!important;}
+.CmAdmTrash{fill:#c1c1c1;}
+.CmAdmTrash:hover{cursor:pointer; fill:#fa6a00;}
+.CmAdmProdTrash{position:absolute; right:0px; bottom:0px; fill:#c1c1c1; font-size:12px; color:#c1c1c1; font-weight:normal;}
+.CmAdmProdTrash:hover{cursor:pointer; fill:#fa6a00; color:#fa6a00;}
+.MiniTab .Lv1 td{background:#ffebdc; padding:5px 6px!important;}
+.MiniTab .Lv2{padding-left:22px!important;}
+
+
+/* Messages */ 
+.CmAdmWsMesg{font-size:10px; color:#aaaaaa; font-family:Arial; padding-top:6px;}
+
+/* DropDown Products search selector */
+.boxAList{width:620px; display:none; position:absolute; box-shadow:0px 5px 18px #00000063; outline:1px solid #fa6a00; z-index:100; overflow-y:scroll; max-height:500px;}
+.optSt{padding:6px 15px; position:relative;  border-bottom:1px solid #dedede; background:linear-gradient(0deg, #f5f2f0, #ffffff);}
+.optSt:hover{background:#fa6a00; color:#fff; cursor:pointer; text-shadow:1px 1px 1px #000; }
+.optSt span{color:#ff0000;}
+.optSt div{font-size:10px; color:grey;}
+.optSt:hover div{color:#dedede;}
+.optSt:hover span{color:#ffffff;}

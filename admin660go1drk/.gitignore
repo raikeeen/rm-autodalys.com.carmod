@@ -1,0 +1,6 @@
+.idea/
+/img/
+/modules/psaddonsconnect/
+/var/
+*.xml
+*.log

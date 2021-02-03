@@ -1,0 +1,24 @@
+.venipak-order-comments .field-row {
+    margin-top: 10px;
+}
+
+.venipak-order-comments .field-row label {
+    font-weight: bold;
+}
+
+.venipak-order-comments .form-control{
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#venipak-additional-info .hidden {
+    display: none !important;
+}
+
+.venipak-order-comments {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}

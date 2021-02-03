@@ -1,0 +1,107 @@
+
+/* HEADER */
+.CmHeadBox{margin:0px -21px; padding:0px 21px 0px 21px;}
+h1#CmCarModH1{line-height:20px; font-family:Calibri!important; text-overflow:ellipsis; display:inline-block; color:#828282; font-weight:600; font-size:22px; text-shadow:1px 1px 2px #ffffff;}
+.CmTitleModelBlock{background-color:#f5f5f5; margin:0px -21px; padding:30px 21px 10px 21px;}
+.boxMod{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); justify-items:stretch;}
+.ModBox{height:150px; text-decoration:none; display:block; positioN:relative; float:left; background-color:#ffffff; margin:0px 2px 5px 3px; background-repeat:no-repeat!important;
+	font-family:Verdana; font-size:12px; background-position:center center!important; border-radius:6px; border:1px solid #fff; box-shadow:2px 2px 8px rgba(0,0,0,0.2);}
+.ModBox:hover{box-shadow:2px 2px 8px rgba(0,0,0,0.5); border-style:solid; border-width:1px;}
+.ModBox:hover .ModName{color:#ffffff;}
+.ModBox:hover .ModName i{color:#ffffff;}
+.ModBox:hover .ModYear{color:#000;}
+.ModBox:hover .ModVDS{color:#bd0000;}
+.ModName{width:100%; left:0px; top:0px; padding:6px 0px 6px 0px; font-weight:bold; border-radius:6px 6px 0px 0px; text-align:center; positioN:absolute;}
+.ModName a{text-decoration:none; color:#000;}
+.ModName a:hover{color:#ff0000;}
+.ModName i{color:#666666; font-size:11px; font-weight:normal!important;}
+.ModYear{positioN:absolute; left:8px; top:122px; font-weight:bold; color:#474747; font-style:italic; }
+.ModVDS{positioN:absolute; right:8px; top:122px; font-size:10px; max-width:124px; overflow:hidden; color:#7c6868;}
+
+.modtab{border-collapse:collapse; font-size:12px; font-family:Verdana; margin:0px auto 0px auto;}
+.modtab td{border:1px solid #000; padding:2px 6px 2px 6px; vertical-align:top;}
+.modtab span{color:#c60000;}
+.modtab i{color:#2a8800;}
+.modtab div{color:#929292; font-size:10px;}
+.typtab{border-collapse:collapse; font-size:10px; font-family:Verdana;}
+.typtab td{border-bottom:1px solid #b0b0b0; padding:2px 6px 2px 6px; vertical-align:top; border-top:0px; border-left:0px; border-right:0px;}
+
+.modelsdiv{width:212px; height:140px; float:left; background-color:#ffffff!important; margin:0px 12px 22px 10px; background-repeat:no-repeat!important; background-position:top center!important; -moz-border-radius:8px; border-radius:8px; -moz-box-shadow:2px 2px 8px rgba(0,0,0,0.2); -webkit-box-shadow:2px 2px 8px rgba(0,0,0,0.2); box-shadow:2px 2px 8px rgba(0,0,0,0.2);}
+.modelname{margin-top:90px; text-align:center; font-weight:bold; font-size:11px;}
+.ampick{display:block; text-align:center; background:#efefef; overflow:hidden; height:21px!important; line-height:18px!important; text-decoration:underline!important; font-size:12px!important; padding:3px 12px 0px 12px; margin:4px 0px 0px 0px!important; color:#5e5e5e!important; font-family:Arial!important;}
+.ampick:hover{text-decoration:none!important;}
+
+.cmH1Box{}
+.cmH1{float:right; margin-right:20px;}
+.CmFilterSwitchWrap{display:flex; justify-content:flex-start; flex-wrap:wrap;}
+.CmTitleBox{margin-bottom:5px;}
+div.fxCont{width:1180px;}
+div.fxCont .CmBrTitleSearchWrap{margin:0px -30px;}
+div.fxCont #CmTitlH1Page{text-align:left;}
+div.fxCont div.CmTypesWrap{width:100%;}
+
+/* Filter */
+.fByName{display:flex; flex-direction:column; align-items:flex-start; position:relative; margin:11px 11px 0px 0px;}
+.fByNameTitle{color:#505050; text-shadow:1px 1px 1px #fff; float:left; padding:4px 14px 4px 14px; margin:-16px 0px 6px -11px; position:relative; top:7px;}
+.fByNameButs{margin:0 0 10px; overflow: hidden; }
+.fByNameButs div, #countries-table tr{transition:background-color 0.2s ease-in-out; -moz-transition:background-color 0.2s ease-in-out; -webkit-transition:background-color 0.2s ease-in-out;}
+.fByNameButs div{color:#757575 !important; font-family:Arial; border-radius:4px; box-shadow:0px 0px 2px 0px #808080;
+	width:30px; float:left; color:#686867; cursor: pointer; height:30px; margin:2px; font-size: 12px;
+	font-weight: bold; text-align: center; line-height:30px; text-shadow: 0 1px 0 white; text-decoration: none; background-color: #F1F1F1;
+}
+.fByNameButs div.first{border-radius: 3px 0 0 3px;}
+.fByNameButs div.last{border-right: 1px solid silver; border-radius: 0 3px 3px 0;}
+.fByNameButs div.CmActFB {color:#fff!important;}
+
+.fByYear{position:absolute; right:10px; top:-6px; float:left; color:#444444; text-shadow:1px 1px 1px #fff; background-image:linear-gradient(0deg,#afafaf,#efeeee); border:1px solid #969597; box-shadow:2px 2px 8px rgba(0,0,0,0.2); z-index:9;}
+.fByYearTitle{float:left; padding:4px 6px 4px 8px; font-weight:bold;}
+.fByYearSelected{float:left; padding:4px 8px 3px 6px; font-weight:bold; background-image:linear-gradient(0deg,#dedede,#ffffff); -moz-user-select:none; -khtml-user-select:none; user-select:none;  }
+.fByYearSelected:hover{color:#ff0000; cursor:pointer; background-image:linear-gradient(0deg,#ffffff,#dedede);}
+.yearBox{position:absolute; background:#f9f9f9; right:25px; top:25px; padding:20px 15px 15px; z-index:8; border:1px solid #9a9a9a; border-radius:5px; box-shadow:2px 2px 8px #80808091;}
+.fYGroupe{font-weight:bold; color:#757575; text-shadow:0 1px 0 white; padding-bottom:3px; background:#f9f9f9; white-space:nowrap; padding-right:7px;}
+.fYear{transition:0.2s; float:left; cursor:pointer; padding:3px 6px;}
+.fYear:hover{color:#ffffff; text-shadow:1px 1px 1px #d0d0d0;}
+.hideYear{display:none;}
+.hideLitter{display:none;}
+
+.boxTAuto{align-self:flex-end; box-shadow:1px 1px 2px #afafaf; margin-bottom:5px; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; }
+.sliderTg{transition:0.2s; font-weight:bold; color:#3c3c3c; font-size:11px; line-height:24px; display:table; padding:0px 8px; float:left; border:1px solid #969597; cursor:pointer; background:linear-gradient(to bottom,#fff,#d0d0d0);}
+.activeTg{box-shadow:inset 1px 1px 5px 1px rgb(191, 191, 191); cursor:default; background:#e8e8e8; color:#797979;}
+.sliderTg:hover{background:linear-gradient(to bottom,#fff,#e2e2e2);}
+.activeTg:hover{background:#e8e8e8; color:#797979;}
+.sliderTg sup{color:#8e8e8e;}
+.slLeft{border-radius:3px 0 0 3px; border-right:none;}
+.slRight{border-radius:0 3px 3px 0;}
+.block_filt {margin-top: 10px !important;}
+
+.fxClose{right:5px !important;}
+@media screen and (max-width: 960px){
+    .CmTitleModelBlock{margin:0;}
+}
+@media screen and (max-width: 710px){
+    .yearBox{top:75px; right:10px;}
+    .cm_modCont{margin:30px;}
+    .cmHeadBox{display:block; width:auto;}
+    #CmContent h1{font-size:14px; line-height:16px; margin:5px 0px 5px 0px;}
+    #CmContent h1 b{font-size:18px;}
+}
+@media screen and (max-width: 500px){
+    #CmContent h1{line-height:16px; margin:5px 0px 5px 0px;}
+    #CmContent h1 b{}
+    .cmH1Box{}
+}
+@media screen and (max-width: 480px){
+    .cm_modCont{margin:20px; padding:15px;}
+    .CmTitleBox{flex-direction:column; align-items:center;}
+    .cmProdLogo{align-self:unset; margin-right:0px;}
+    .boxTAuto{align-self:flex-end; margin-left:0px;}
+}
+@media screen and (max-width: 390px){
+    .fByNameTitle{padding:4px 3px; margin:-16px 0px 6px -2px;}
+    .fByYearTitle{padding:4px 3px;}
+    .fByYearSelected{padding:4px 5px;}
+    .fByYear{right: 4px;}
+    .yearBox{padding:20px 10px 15px;}
+    .cm_modCont{margin:10px;}
+    .cmHeadBox{width:auto;}
+}

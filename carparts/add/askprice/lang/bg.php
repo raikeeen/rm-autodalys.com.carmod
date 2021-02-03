@@ -1,0 +1,29 @@
+<?
+$title="Въведете съобщението си и нашият мениджър скоро ще се свърже с вас";
+$your_mail="Вашата електронна поща или телефон";
+$your_name="Твоето име:";
+$message="Съобщение:";
+$askPrice="Попитай цената";
+$invalid_code_img="Невалиден код от изображението";
+$empty_code = "Въведете кода";
+$write_your_message="Напишете вашето съобщение";
+$write_name="Напишете името";
+$email_correct="Напишете e-mail или телефонен номер";
+$input_empty = "Полето не трябва да е празно";
+$thanks_we_will_reply="Благодарим ви, скоро ще отговорим";
+$request_from_atr="Искане от ";
+$request_from_atr_txt="Искам да знам цената на този продукт: ";
+$Error_sending_mail = "Грешка при изпращане на поща!";
+$example = "Пример:";
+$mail = "Email:";
+$phone = "Телефон:";
+$exaple_email_phone = "name@domain.com/9876543210";
+$example_email = "name@domain.com";
+$example_phone = "9876543210";
+$textarea_title = "Най-малко 30 знака";
+$captcha_title = "Въведете 6 цифри";
+$ask_price_title = "Купувачът е поискал цена на сайта Ви ".$Sname." за резервни:";
+$prod_link = "Връзка с продукта:";
+$name = "Име:";
+$email_title = "Заявете цена на сайта".$Sname;
+?>

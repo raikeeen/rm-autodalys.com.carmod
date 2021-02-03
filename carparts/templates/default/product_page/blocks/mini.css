@@ -1,0 +1,12 @@
+.CmMSelectBox{width:100px;}
+.CmImgLogoProd{grid-template-columns:1fr;}
+
+.CmImgLogoProd{flex-direction:column;}
+.CmleftBlWrap{min-width:unset;}
+
+.CmQuantBlToCartBl{flex-direction:column;}
+.blockQty{margin-right:0px; margin-bottom:5px;}
+.CmPriceFormated{margin-left:0px; margin-top:5px;}
+.CmLeftBlockImage{max-width:170px;}
+.CmAvalBlPriceBl{flex-direction:column;}
+.cm_qty_t, .cm_qty_tH{margin-right:0px; margin-bottom:5px;}

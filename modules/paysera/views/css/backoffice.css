@@ -1,0 +1,65 @@
+.paysera-tabs {
+    margin: 0;
+    padding: 0;
+}
+.paysera-tabs .panel {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0 5px 5px 5px!important;
+    -moz-border-radius: 0 5px 5px 5px!important;
+    border-radius: 0 5px 5px 5px!important;
+}
+
+.paysera-tabs nav {
+    padding: 0;
+    margin: 30px 0 0 0;
+    display: block;
+}
+
+.paysera-tabs nav a {
+    padding: 10px 12px 6px;
+    color: #00aff0;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 5px 0 1px;
+    vertical-align: top;
+    position: relative;
+    top: -5px;
+}
+
+.paysera-tabs nav a:hover {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    margin: 0 4px 0 0;
+    text-decoration: none;
+    color: #0077a4;
+
+}
+
+.paysera-tabs nav a.nav-tab-active {
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-bottom: transparent;
+    margin: 0 4px 0 0;
+    color: #000;
+    z-index: 99;
+}
+
+.panel-footer button {
+    border: none !important;
+    color: #ffffff !important;
+    background-color: #136c9c !important;
+    width: 40%;
+    margin: 0 30%;
+}
+
+.panel-footer button i {
+    color: #ffffff !important;
+}
+
+.panel-footer button:hover {
+    background-color: #2facce !important;
+    transition: all 0.3s;
+}

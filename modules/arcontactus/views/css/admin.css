@@ -1,0 +1,103 @@
+.ar-blocked{
+    position: relative;
+}
+.ar-loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,0.5);
+}
+.ar-loading .ar-loading-inner{
+    position: absolute;
+    width: 140px;
+    height: 49px;
+    padding: 15px 15px 15px 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border: 1px solid #AAAAAA;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('../img/ring-alt.gif') no-repeat 6px 8px scroll  #FFFFFF;
+}
+
+.form-group .errors{
+    display: none;
+}
+.form-group.has-error .errors{
+    display: block;
+}
+.arcu-icon-list li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.arcu-icon-list li:hover div{
+    background: #EEEEEE;
+}
+.arcu-icon-list li.active div{
+    background: #00aff0;
+    color: #FFFFFF;
+}
+.arcu-icon-list li svg{
+    display: inline-block;
+}
+.arcu-icon-list li>div{
+    padding: 8px 0;
+    text-align: center;
+    height: 90px;
+    border: 1px solid #DDDDDD;
+}
+.arcu-icon-list li svg{
+    width: 48px;
+    height: 48px;
+}
+
+#arcontactus-table svg{
+    width: 24px;
+    height: 24px;
+}
+#arcontactus-table .lbl-color{
+    padding: 0 3px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+#arcontactus-config-tabs .panel .form-wrapper .section-head{
+    margin: 0;
+    border-bottom: 0 none;
+    padding: 0;
+    text-transform: none;
+    font-size: 19px;
+}
+
+#arcontactus-config-tabs .panel .form-wrapper hr{
+    margin: 10px 0;
+}
+
+#arcontactus-config-tabs .field_tawk_to_head, 
+#arcontactus-config-tabs .field_crisp_head,
+#arcontactus-config-tabs .field_intercom_head,
+#arcontactus-config-tabs .field_fb_head,
+#arcontactus-config-tabs .field_vk_head,
+#arcontactus-config-tabs .field_zopim_head,
+#arcontactus-config-tabs .field_skype_head,
+#arcontactus-config-tabs .field_zalo_head,
+#arcontactus-config-tabs .field_lhc_head,
+#arcontactus-config-tabs .field_ss_head,
+#arcontactus-config-tabs .field_lc_head,
+#arcontactus-config-tabs .field_tidio_head{
+    margin-bottom: 0;
+}
+#arcontactus-config .modal-title{
+    font-size: 19px;
+}
+#arcontactus-config .tab-pane .panel-heading{
+    display: none;
+}
+#arcontactus-config .tab-pane .panel{
+    border-radius: 0 0 5px 5px;
+}

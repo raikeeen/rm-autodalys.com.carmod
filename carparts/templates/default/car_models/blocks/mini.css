@@ -1,0 +1,8 @@
+.ModBox{width:19%;}
+
+@media screen and (max-width: 1024px){
+	.ModBox{width:23%;}
+}	  
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="aa1411cc44ecfafbca0d71427fe3dc7a">
+        <source>Add to compare</source>
+        <target>Pridėti palyginimui</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a6a2a55bea8760389dfca77132905b7c">
+        <source>All Categories</source>
+        <target>Visos Kategorijos</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

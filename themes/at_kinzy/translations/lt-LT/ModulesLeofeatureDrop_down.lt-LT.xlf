@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="51f377b830737ebc60c6e4293760f455">
+        <source>Check Out</source>
+        <target>Perku</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2e65a5e30c454ceb77be9bb48e8343f1">
+        <source>Remove from cart</source>
+        <target>Pašalinti iš krepšelio</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

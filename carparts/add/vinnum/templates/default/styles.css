@@ -1,0 +1,87 @@
+.CmVinNumWrap{border-radius:4px; width:245px; padding:0px 0px 0px 0px; margin:2px auto; border: 1px solid #637a59; position:relative; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
+@media screen and (min-width: 1400px) {
+	.CmVinNumWrap {
+		margin:2px 8px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.CmVinNumWrap {
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.CmVinNumWrap {
+
+	}
+}
+
+input.CmVinNumField{width:100%; margin:0px; padding-left:10px; width:100%; min-height:unset !important; box-shadow:inset 1px 0px 4px 0px #c0c0c0; border-radius:4px; line-height:32px !important; height:32px !important; color:#237200; font-size:14px; text-align:left; font-weight:bold;  border:0px; text-transform:uppercase; background:#f6fff1;}
+input.CmVinNumField::placeholder {color:#c1c1c1; font-weight:normal; font-style:Italic; text-align:center!important; text-transform:capitalize!important;}
+input.CmVinNumField:focus{outline:none; }
+input.CmVinNumField:disabled{color:#e7f5ff; background:#e7f5ff!important;}
+
+.CmVinNumClear{position:absolute;  z-index:98; white-space:nowrap; width:100%;}
+#CmVinNumFail{display:none; color:#550000; text-align:center; border:1px solid #6e6e6e; line-height:32px; box-shadow:1px 1px 2px rgba(0,0,0,0.2); background:linear-gradient(to bottom,#f9ecec,#e9b2b2); }
+.CmVinNumAnim{display:none; position:absolute; margin:auto; top:0; bottom:0; left:0; right:0; background-color:rgba(231,231,231,0.6);}
+.CmVinNumAnim img{width:170px; position:absolute; margin:auto; top:0; bottom:0; left:0; right:22;}
+.CmVinNumCous{ color:#ffffff; font-weight:bold; font-family:Arial; width:34px; line-height:34px; text-align:center; position:absolute; font-size:14px; top:1px; left:1px; background:#3f9900;  border-bottom-left-radius:8px; border-top-left-radius:8px;  }
+div.CmVinNumGo{line-height:8px !important; background: linear-gradient(#ffffff,#d6d6d6); border-radius:0px 4px 4px 0px; cursor:pointer; position:absolute; top:0px !important; right:0px !important; fill:#808080; transition:all 0.3s ease; transform-origin:80% 80%; padding:7px !important; box-shadow:inset rgba(216,216,216,0.2) 6px 6px 5px -5px, inset rgba(0,0,0,0.3) -6px -6px 5px -5px;}
+.CmVinNumGo:hover{background: linear-gradient(#ffffff,#b1de9d);}
+
+/* Types Selector */
+#CmVinNumTypes{display:none; color:#333333; background:#ffffff;  }
+#CmVinNumTypes table{font-size:12px !important; border:3px solid #747a80; box-shadow:2px 2px 24px rgba(0,0,0,0.6);}
+#VinNumClose{color:#ff0000; font-size:17px; text-shadow:0 2px 0 #ffffff; background:#ffe4e4; padding:4px 7px 4px 7px;}
+#VinNumClose::after{content:'✖';}
+#VinNumClose:hover{cursor:pointer; color:#000000;}
+.VinNumCloseM{float:right; width:14px; height:14px; margin:-5px; color:#e9e9e9!important; background:none!important; padding:0px!important; text-shadow:0 2px 0 #000000!important;}
+.VinNumCloseM:hover{color:#ffdb00!important;}
+.VinNumTab{border-collapse:collapse;}
+.VinNumTab td{white-space:nowrap;}
+.VinNumModel td{font-weight:bold; color:#ffdb00; background:linear-gradient(to bottom,#bcc1c7,#73797f); padding:9px 12px 9px 12px; text-shadow:1px 1px 1px #000000;}
+.VinNumType{padding:0px!important;}
+.VinNumType a{display:block; color:#378700!important; padding:7px 10px 7px 22px; background:linear-gradient(to bottom,#f7f7f7,#e8e8e8);}
+.VinNumType a:hover{color:#ff0000!important; background:linear-gradient(to bottom,#fffadc,#e4d686);}
+.RnManuf{}
+.RnModel{}
+.RnVDS{color:#ffffff!important;}
+.RnBotArr{color:#ffffff!important;}
+.RnType{font-weight:bold; color:#000000;}
+.RnEngine{}
+.RnEngType{}
+.RnYears{font-family:Arial; font-style:Italic;}
+.RnDrive{color:#000000!important; font-family:Arial;}
+.RnKwHp{color:#a9a9a9; font-family:Arial;}
+.VinNumLit{padding:8px 5px 8px 5px; font-weight:bold; border:1px solid #3f9900; }
+.VinNumLit:hover{color:#ff0000; cursor:pointer; background:#e8e8e8;}
+.VinNumLitActive{background:#ffdb00; color:#dd0000;}
+.VinNumHidden{display:none;}
+
+/* LOADING */
+.CmVinnumLoading{top:10px; left:35%; display:none; position:absolute;}
+.CmLoadVinBl{background-color:#237200;}
+.CmVinnumLoading div{position:absolute; width:11px; height:11px; border-radius:50%; animation-timing-function: cubic-bezier(0, 1, 1, 0);}
+.CmVinnumLoading div:nth-child(1){left:6px; animation: CmMSelectLoading1 0.6s infinite;}
+.CmVinnumLoading div:nth-child(2){left:6px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmVinnumLoading div:nth-child(3){left:26px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmVinnumLoading div:nth-child(4){left:45px; animation:CmMSelectLoading3 0.6s infinite;}
+@keyframes CmMSelectLoading1{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@keyframes CmMSelectLoading3 {
+	0%{transform:scale(1);}
+	100%{transform:scale(0);}
+}
+@keyframes CmMSelectLoading2 {
+	0%{transform:translate(0,0);}
+	100%{transform:translate(19px,0);}
+}
+
+
+/* Adaptivity */
+@media screen and (max-width: 710px){
+	.CmVinNumPositionLeft{margin:0px 10px 10px 0px!important;}
+	.CmVinNumPositionRight{margin:0px 10px 10px 0px!important;}
+	.CmVinNumPositionCenter{margin:0px 10px 10px 0px!important;}
+}

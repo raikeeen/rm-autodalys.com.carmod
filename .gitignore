@@ -1,0 +1,12 @@
+.idea/
+/img/
+/admin660go1drk/import/
+/xml/
+/modules/psaddonsconnect/
+/modules/lpexpress/logs/
+/themes/at_kinzy/assets/cache/
+/var/
+*.xml
+*.log
+*.xlsx
+/rm-autodalys

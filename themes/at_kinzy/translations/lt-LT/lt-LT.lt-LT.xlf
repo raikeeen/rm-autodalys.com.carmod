@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="d520781e19eed1a7e6bac55fae6c271f">
+        <source>View My Account</source>
+        <target></target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311">
+        <source>Sign out</source>
+        <target></target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b7f064b8ea388f015b30d851310a239c">
+        <source>Quick Login</source>
+        <target>Quick Login</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

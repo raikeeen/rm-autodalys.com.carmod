@@ -1,0 +1,144 @@
+#CmMSelectAdd{
+	position:relative;
+	/*padding:0px 0px 0px 16px;*/
+	-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}
+.CmMSelectBlock{position:relative; align-self:flex-end;}
+.CmMSelectTable{display:flex; align-items:center; justify-content:flex-end;}
+.CmMSelectTableSeTD{display:flex; justify-content:center; align-items:flex-start;}
+.CmMselBoxWrap{display:flex; flex-direction:column; width:160px;}
+.CmMSelectBox{position:relative;}
+.CmResetSettings{cursor:pointer; position:absolute; top:3px; right:3px; width:20px; z-index:9; transition:all 0.3s;}
+.CmResetSettings:hover{fill:#505050 !important;}
+
+/* Vehicle Image block */
+.CmMSelectVehicle{ position:relative; padding:0px; width:180px; height:88px; text-align:center; background:#ffffff url("media/mselect.jpg") center center no-repeat;  }
+.CmMSelectVehicle .CmMSelectLoading{left:65px; top:45px;}
+
+
+/* Main buttons */
+.CmMSelectBut{overflow:hidden; text-overflow:ellipsis;	position:relative; /*text-transform:capitalize;*/  white-space:nowrap; color:#c8c8c8; font-size:12px; text-shadow:1px 1px 1px #ffffff !important; background:linear-gradient(#ffffff,#e4e4e4); line-height:36px; vertical-align: middle; margin:0px 6px 6px 0px; font-family:Verdana; padding:0px 14px 0px 14px; border:1px solid #b3b3b3; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.4); -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.4); box-shadow: 1px 1px 2px rgba(0,0,0,0.4); }
+.CmMSelectBut:hover{cursor:pointer; background:linear-gradient(#ffffff,#efe9da);}
+.CmMSelectBut span{font-weight:bold; color:#4f5257;}
+.CmMSelectActive{ border-bottom:none; z-index:778; box-shadow:1px -1px 2px rgba(0,0,0,0.2); padding-bottom:7px!important; margin-bottom:-1px!important; background: -webkit-linear-gradient(#e1e1e1,#fff)!important; background: -moz-linear-gradient(#e1e1e1,#fff)!important; background: -o-linear-gradient(#e1e1e1,#fff)!important; background:linear-gradient(#e1e1e1,#fff)!important; -moz-border-radius-bottomleft:0px; -webkit-border-bottom-left-radius:0px; border-bottom-left-radius:0px;  -moz-border-radius-bottomright:0px; -webkit-border-bottom-right-radius:0px; border-bottom-right-radius:0px; }
+
+/* Disabled buttons */
+.CmMSelectDisabled{color:#d6d6d6!important; background:linear-gradient(#ffffff,#d6d6d6)!important;}
+.CmMSelectDisabled:hover{cursor:default!important;}
+.CmMSelectDisabled span{color:#9d9d9d!important;}
+
+/* Drop down options menu */
+.CmMSelectDown{left:-10px !important; color:#929292; position:absolute; margin-top:0px; background:#ffffff; padding:18px; text-align:center; display:none; z-index:777; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -moz-box-shadow:4px 6px 20px rgba(0,0,0,0.4); -webkit-box-shadow:4px 6px 20px rgba(0,0,0,0.4); box-shadow:4px 6px 20px rgba(0,0,0,0.4); }
+.CmMSelectDown table div{color:#929292; padding:4px 9px; white-space:nowrap;}
+.CmMSelectDown table div b{color:#4e4e4e; font-family:Verdana;}
+.CmMSelectDown table div:hover{color:#ffffff!important; cursor:pointer;}
+.CmMSelectDown table div:hover b{color:#ffffff!important; cursor:pointer;}
+div.CmMSelectDownRight{right:unset !important;}
+
+/* Years */
+.CmMSelectYear{width:50px; float:left; font-weight:bold; padding:6px 0px; color:#929292;}
+.CmMSelectYear:hover{color:#ffffff!important; cursor:pointer;}
+/*.CmMSelectYearCut{clear:both; border-bottom-width:1px; border-bottom-style:solid;}*/
+.CmYearGroupInner{display:grid; grid-template-columns:repeat(5, 1fr); border-bottom-width:1px; border-bottom-style:solid;}
+
+/* Manufacturer Groups */
+.CmMSelectGroups{border-bottom-width:1px; border-bottom-style:solid; margin-bottom:5px; display:grid; grid-template-columns:repeat(3,1fr);}
+.CmMSelectMfTab{overflow:auto; max-height:400px;}
+.CmManufInner{display:grid; grid-template-columns:repeat(3, 1fr);}
+.CmMSelectYearInner{display:grid; grid-template-columns:repeat(6, 1fr);}
+.CmMSelectGrTab{color:#999999; font-size:14px; padding:8px 20px; transition:all 0.2s;}
+.CmMSelectGrTab:hover{cursor:pointer; padding-top:5px; padding-bottom:11px;}
+.CmMSelectGrActive{font-weight:bold;}
+.CmMSelectManuf{font-weight:bold; white-space:nowrap; margin:0px 1px 1px 0px; padding:6px 8px; text-align:left!important; color:#929292;}
+.CmMSelectManuf:hover{color:#ffffff!important; cursor:pointer;}
+div.CmMSelectDownManuf{width:unset !important;}
+
+
+/* Models/Types */
+.CmModelSelWrap{overflow:auto; max-height:400px; width:250px;}
+.CmMSelectList{font-size:12px; color:#929292; border-bottom:1px solid #e1e1e1; padding:5px 6px; text-align:left!important;}
+.CmMSelectList:hover{color:#ffffff!important; cursor:pointer;}
+.CmMSelectList b{color:#4e4e4e;}
+.CmMSelectList:hover b{color:#ffffff!important;}
+/* .CmMSelectRowsTab td{border-left-width:1px; border-left-style:solid;}
+.CmMSelectRowsTab tr td:first-child{border-left-width:0px!important;}*/
+
+/*Engine Select*/
+.CmEngineSelWrap{overflow:auto; max-height:400px; width:250px;}
+
+
+/* Left block position */
+.CmMSelectDownLeft{left:0px!important;}
+.CmMSelectPositionLeft{float:left!important;
+	margin:0px 10px 0px -20px;
+}
+
+/* Right block position */
+/*.CmMSelectDownRight{right:0px!important;}*/
+/*.CmMSelectPositionRight{float:right!important; */
+/*	margin:0px 0px 10px 0px;*/
+/*}*/
+
+/* LOADING */
+.CmMSelectLoading{top:10px; left:8px; display:none; position:absolute; width:64px;}
+.CmMSelectLoading div{position:absolute; width:11px; height:11px; border-radius:50%; animation-timing-function: cubic-bezier(0, 1, 1, 0);}
+.CmMSelectLoading div:nth-child(1){left:6px; animation: CmMSelectLoading1 0.6s infinite;}
+.CmMSelectLoading div:nth-child(2){left:6px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmMSelectLoading div:nth-child(3){left:26px; animation: CmMSelectLoading2 0.6s infinite;}
+.CmMSelectLoading div:nth-child(4){left:45px; animation:CmMSelectLoading3 0.6s infinite;}
+@keyframes CmMSelectLoading1{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@keyframes CmMSelectLoading3 {
+	0%{transform:scale(1);}
+	100%{transform:scale(0);}
+}
+@keyframes CmMSelectLoading2 {
+	0%{transform:translate(0,0);}
+	100%{transform:translate(19px,0);}
+}
+
+
+/* Adaptivity */
+@media screen and (max-width:960px){
+	.CmMSelectPositionRight{border-radius:0px;}
+	.CmMSelectPositionLeft{border-radius:0px; }
+ 	.CmFloatLeft{margin-bottom:10px;}
+ 	.CmMSelectBlock{margin:1% 0px;}
+}
+@media screen and (max-width:840px){
+	.CmMselBoxWrap{width:130px;}
+}
+@media screen and (max-width:760px){
+	.CmHeadTitleWrapBlock{flex-direction:column;}
+	.CmTitleBradWrap{align-self:flex-start;}
+}
+@media screen and (max-width:640px){
+	#CmMSelectAdd{padding:0px 20px;}
+	.CmMSelectDown{padding:10px 0px!important;}
+	.CmMSelectDownRight{left:0px!important; }
+}
+@media screen and (max-width:520px){
+    .CmMSelectTable{width:100%; flex-direction:column;}
+    .CmMSelectTableSeTD{order:2; flex-direction:column; width:100%;}
+    .CmMselBoxWrap{width:100%;}
+    .CmMSelectVehicle{width:100%;}
+    .CmMSelectPositionRight{ align-self:center; width:100%}
+    div.CmTopBox{justify-content:center !important;}
+}
+@media screen and (max-width:480px){
+    .CmMSelectBox{float:none; width:100%;}
+    .CmMSelectManuf{width:auto;}
+    .CmMSelectDown{margin:0px!important;}
+    .CmMSelectLoading{top:7px;}
+    .CmMSelectMfTab{float:none; display:flex; flex-direction:column;}
+	.CmYearGroupInner{grid-template-columns:repeat(4,1fr);}
+	.CmMSelectManuf{font-size:11px; padding:9px;}
+	.CmMSelectGrTab{font-size:12px;}
+	.CmManufInner{grid-template-columns:repeat(2, 1fr);}
+	.CmMSelectGrTab{padding:8px 10px;}
+	.CmMSelectList{padding:9px;}
+	.CmMSelectYear{padding:8px; border-bottom:1px solid #cdcdcd; border-right:1px solid #cdcdcd;}
+	.CmMSelectActive{margin-bottom:0px !important;}
+}

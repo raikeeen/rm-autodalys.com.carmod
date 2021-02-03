@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Redirect to site home page if only CarMod root page
+#RedirectMatch 301 ^/carparts/$ /
+
+# Redirect to LANGUAGE page
+#RedirectMatch 301 ^carparts/(.*) /lv/carparts/
+
+#Force trailing-slash - place to the ROOT .htaccess file
+#RewriteCond %{REQUEST_URI} /+[^\.]+$ 
+#RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+#Images MIRROR
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^img/(.*)$ media/img.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]

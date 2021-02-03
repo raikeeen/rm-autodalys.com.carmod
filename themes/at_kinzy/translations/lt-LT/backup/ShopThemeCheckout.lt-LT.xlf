@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="5a0d620c4938bda6d4be4a2869cc3ee7">
+        <source>There are %products_count% items in your cart.</source>
+        <target>Jūsų krepšelyje yra %products_count% prekė.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

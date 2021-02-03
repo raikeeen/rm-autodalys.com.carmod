@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Ieškoti</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d502fa4950894baeaeaf3c5195bb8206">
+        <source>Save %percentage%</source>
+        <target>Sutaupyk %percentage%</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

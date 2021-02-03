@@ -1,0 +1,121 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+/* mobile */
+@media screen and (max-width: 768px) {
+    .width-block {
+        width:100%;
+    }
+    .mobile-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    .mobile-search {
+
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .width-img{
+        max-width: 100%; height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .width-img{
+        width: 120%;
+        height: 120%;
+    }
+
+}
+@media screen and (min-width: 1400px) {
+
+    .width-img{
+        max-width: 100%;
+    }
+
+}
+
+.mobilek {
+    display: none;
+}
+.nav-btn{
+    padding: 24px 20px 24px 30px;
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 750px) {
+
+    .mobile-nav-dis-none{
+        display: none;
+    }
+    .mobile-nav-dis-block{
+        display: block;
+    }
+
+}
+
+
+.nav-menu{
+    padding: 15px 50px;
+    margin-top: 3px;
+}
+
+.car-select{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    min-height: 322px;
+    padding: 20px;
+    position: relative;
+    z-index: 1000;
+}
+
+.img-banner{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    clip: rect(40px 1400px 400px 70px);
+}
+
+.nav-buttons{
+    border-radius: 10px;
+}
+.header-text{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#bnt{
+    min-width: 0;
+    position: relative;
+}
+
+
+/**
+carmod css
+ */
+.selector-buttons{
+    transform: translate(-50%, 0);
+}
+
+.catalog-section{
+    border-radius: 10px;
+    margin: 0 -21px 21px -21px;
+    position: relative;
+    z-index: 500;
+
+}
+.row-selector-drop{
+    padding: 0 15% 5px 15%;
+}
+.search-carmod{
+    padding-top: 5px;
+    float: right;
+}

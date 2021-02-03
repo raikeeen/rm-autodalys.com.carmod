@@ -1,0 +1,153 @@
+/*********Style popup preview*************/
+.header_style {
+	overflow:auto !important;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    /* left: 0px; */
+    /* bottom: 0px */
+	zoom: 1;
+    width:100%;
+    height:100%;
+    display: block;
+    transition: all 0.3s;
+    text-align: center;
+    background:#B3B3B3;
+    opacity:0.7;
+    z-index: 900000;
+}
+.header_style_load {
+	overflow:auto !important;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    /* left: 0px; */
+    /* bottom: 0px */
+	zoom: 1;
+    width:100%;
+    height:100%;
+    display: block;
+    transition: all 0.3s;
+    text-align: center;
+    background:#B3B3B3;
+    opacity:0.7;
+    z-index: 900000;
+}
+.content_style {
+	padding: 50px 90px 50px;
+    position:fixed;
+    border: 1px ;
+    background:#fff;
+    max-width:480px;
+    width:auto;
+    height:auto;
+    /* min-height:460px; */
+    max-height:650px;
+    z-index: 900000;
+    overflow: auto;
+    /* transition: all 0.3s;  */
+    border-radius: 5px;
+}
+.bapreview_close {
+	cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    font-size: 17px;
+}
+.bapreview_generated {
+	color: #979797;
+}
+.bapreview_wrap_button {
+	background-color: #B99555;
+	border-radius: 25px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.bapreview_button {
+	display: block;
+	color: #fff;
+	padding: 10px 13px;
+	text-decoration: none;
+}
+.bapreview_wrap_a {
+	text-align: center;
+}
+.bapreview_a {
+	cursor: pointer;
+	border-bottom: 1px dotted;
+}
+/*********End popup preview*************/
+
+.product_template .product_template_head{
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+}
+.panel{
+	float:left;width:100%;
+}
+.panel-footer{
+	float: left;
+    width: 100%;
+    margin: 0 !important;
+}
+#show_list_token{
+	padding-top: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+#show_list_token i{font-size:18px;}
+.ba_prestashop_invoice_invoice th.center select
+,.ba_prestashop_invoice_invoice th.center input 
+,.ba_prestashop_invoice_deliveryslip th.center input 
+,.ba_prestashop_invoice_deliveryslip th.center select{margin:0 auto;}
+#ba_prestashop_invoice_invoice div.panel {
+	border-top-left-radius: 0 !important;
+}
+.image_helpperlist img{width:30px;}
+.riverroad{
+    display: block;
+    float: left;
+}
+/********** style for customer number ************/
+.form-element .description{
+    font-style: italic;
+	color: #666;
+}
+.form-element input[type="date"]{
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+#custom-number-form .panel .panel-footer{
+	margin: 15px -20px -20px !important;
+	clear: both;
+	width: auto;
+	float:none;
+}
+input.invoice_reset{
+	position: relative;
+	top: 2px;
+}
+iframe{min-height: 200px !important;}

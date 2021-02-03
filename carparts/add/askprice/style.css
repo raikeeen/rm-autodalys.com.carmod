@@ -1,0 +1,24 @@
+#CmAskFormBl{margin:0 auto; position:relative;}
+.CmFormBlock{position:relative;}
+.CmAskTitleBl{padding:20px; line-height:24px; background-color:#cdcdcd; margin-bottom:20px; text-align:left;}
+.CmRequestTitle {font-size:16px; font-weight:bold; text-shadow:1px 1px 2px #ffffff;}
+.CmReqTitText{text-shadow:1px 1px 2px #ffffff;}
+.CmAskPrTable{margin:0 auto; width:100%;}
+.CmAskPrTable td{line-height:30px; padding:5px; text-align:left;}
+td.CmFormText{padding-right:10px; vertical-align:top; text-align:right;}
+.CmReqInput{height:25px; width:200px;}
+.CmAskPrTable input, textarea{border:1px solid #808080; border-radius:3px; box-shadow:inset 2px 2px 5px rgba(0,0,0,0.2); padding:5px; height:unset;}
+.CmAskPrTable textarea{height:70px; width:95%;}
+.CmAskPrTable span{line-height:20px;}
+#loadingAP{display:none; position:absolute; top:0px; bottom:0px; right:0px; left:0px; margin:auto; background-color:rgba(255,255,255,0.6);}
+.ErrorMes{width:80%; margin:10px auto; margin-top:10px; margin-right:auto; margin-bottom:10px; margin-left:auto; background-color:#eaeaea; padding:10px;}
+.CmATipBox{display:none; position:absolute; border:1px solid #b3b392; background-color:#ffffe1; padding:10px; color:#292929; font-family:Verdana; font-size:11px; line-height:13px; z-index:9999; border-radius:4px; box-shadow:2px 2px 5px rgba(0,0,0,0.2);}
+#CmLoadImg{display:none; background-position:50%; background-repeat:no-repeat; background-size:25%; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; z-index:999;}
+#CmRequestSub{float:right; border:1px solid #637d68; box-shadow:1px 1px 3px 0px rgb(191, 191, 191); cursor:pointer; transition:all 0.3s; background:linear-gradient(to bottom,#fff,#cee4c9); border-radius:4px; padding:0px 10px 0px 8px; font-weight:bold; font-family:Arial; font-size:13px; white-space:nowrap; color:#468a55; position:relative; transition:all 0.3s; margin:0px auto 7px auto; line-height:36px;}
+div#CmRequestSub span{line-height:38px;}
+#CmRequestSub:hover{top: -1px; border-color:#8AA990;}
+#CmRequestSub:active{box-shadow: inset 1px 1px 3px 1px rgb(191, 191, 191);}
+.CmAskPriceImg{width:18px; height:30px; float:left; margin-right:5px; fill: #468a55;}
+div.CmErrBlock{height:10px;}
+span.CmErr{color:red; font-size:11px;}
+/* Media query in /templates/default/common.css */

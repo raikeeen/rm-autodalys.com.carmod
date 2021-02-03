@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin660go1drk" source-language="lt-LT" target-language="lt-LT" datatype="plaintext">
+    <body>
+      <trans-unit id="3c19bc4e7b90b3bc329f81f00764b791">
+        <source>proceed to checkout</source>
+        <target>Pirkti prekes</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="95e6faaba5e8b016e5f9bcf5ea6c8270">
+        <source>Back to Login</source>
+        <target>Grįžti</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
+        <source>Checkout</source>
+        <target>Perku</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0ba7583639a274c434bbe6ef797115a4">
+        <source>Register</source>
+        <target>Registracija</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e221d5bda5191d3c838655960b0149a8">
+        <source>Share:</source>
+        <target>Dalintis:</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

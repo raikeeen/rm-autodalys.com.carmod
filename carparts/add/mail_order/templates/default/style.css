@@ -1,0 +1,41 @@
+.fxCont{padding:0px;}
+#CmAskFormBl{margin:0 auto; position:relative;}
+.CmFormBlock{position:relative; background-color:#ffffff; padding:30px;}
+.CmAskTitleBl{z-index:1; position:relative; padding:33px 30px 30px 30px; line-height:24px; background-color:#cdcdcd; text-align:left; border-bottom-width:1px; border-bottom-style:solid; box-shadow:1px 1px 15px -3px rgba(0,0,0,0.6);}
+.CmRequestTitle {font-size:16px; font-weight:bold; text-shadow:1px 1px 2px #ffffff;}
+.CmReqTitText{text-shadow:1px 1px 2px #ffffff;}
+.CmAskPrWrap{margin:0 auto; width:100%; display:flex; flex-direction:column;}
+.CmInpBlock{display:flex; flex-direction:column; align-items:flex-start; width:100%; margin-top:20px;}
+.CmInpBlock:first-child{margin-top:0px;}
+.CmAskLabInpt{display:flex; justify-content:flex-start; align-items:center; width:100%;}
+.CmFormText{margin-bottom:5px; font-size:13px;}
+.CmCaptInptBl{display:flex; justify-content:flex-start; align-items:center;}
+.CmCaptchaInput{width:auto;}
+.CmCaptImg{margin-left:10px;}
+.CmMailPhoneInput, .CmMailNameInput{height:25px; width:200px;}
+.CmAskPrWrap input, textarea{border:1px solid #808080; border-radius:3px; box-shadow:inset 2px 2px 5px rgba(0,0,0,0.2); padding:5px; height:unset; line-height:22px;}
+.CmAskPrWrap textarea{height:70px; width:95%;}
+.CmAskPrWrap span{line-height:20px;}
+#loadingAP{display:none; position:absolute; top:0px; bottom:0px; right:0px; left:0px; margin:auto; background-color:rgba(255,255,255,0.6);}
+.ErrorMes{width:80%; margin:10px auto; margin-top:10px; margin-right:auto; margin-bottom:10px; margin-left:auto; background-color:#eaeaea; padding:10px;}
+.CmATipBox{display:none; position:absolute; border:1px solid #b3b392; background-color:#ffffe1; padding:10px; color:#292929; font-family:Verdana; font-size:11px; line-height:13px; z-index:9999; border-radius:4px; box-shadow:2px 2px 5px rgba(0,0,0,0.2);}
+#CmLoadImg{display:none; background-position:50%; background-repeat:no-repeat; background-size:25%; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; z-index:999;}
+#CmRequestSub{border-style:solid; border-width:1px; box-shadow:1px 1px 3px 0px rgb(191, 191, 191); cursor:pointer; /*background:linear-gradient(to bottom,#fff,#cee4c9);*/ border-radius:4px; padding:0px 10px 0px 8px; font-weight:bold; font-family:Arial; font-size:13px; white-space:nowrap; color:#468a55; position:relative; line-height:36px;}
+#CmRequestSub:hover span{color:#ffffff !important;}
+#CmRequestSub:hover svg{fill:#ffffff !important;}
+div#CmRequestSub span{line-height:38px;}
+#CmRequestSub:hover{top: -1px; border-color:#8AA990;}
+#CmRequestSub:active{box-shadow: inset 1px 1px 3px 1px rgb(191, 191, 191);}
+.CmAskPriceImg{width:18px; height:30px; float:left; margin-right:5px; fill: #468a55;}
+div.CmErrBlock{display:none; margin-left:8px;}
+div.CmErrBlock svg{width:20px; height:20px; fill:red;}
+span.CmErr{color:red; font-size:11px;}
+.CmAskSubmWrap{display:flex; justify-content:flex-start; align-items:center; margin-top:30px;}
+
+@media screen and (max-width: 1366px)
+.fxCont {
+    max-height: 700px;
+    max-width: 1180px;
+    width: unset;
+}
+/* Media queries in /templates/default/common.css */

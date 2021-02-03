@@ -1,0 +1,9 @@
+.CmHeader{
+	padding:10px 0px 16px 0px;
+	display:flex;
+	justify-content:center; 
+	align-items:center; 
+	flex-wrap:wrap; 
+	align-content:flex-start;
+    width: 100%;
+}

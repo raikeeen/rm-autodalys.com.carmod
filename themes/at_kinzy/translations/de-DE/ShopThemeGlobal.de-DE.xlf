@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\product.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="3767d4f3efe17bd95a1bc7cf4194bb93">
+        <source>You might also like</source>
+        <target>Das könnte dir auch gefallen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\product.tpl:150</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="c4661f713ed18f67a9e758c76b8d6f90">
+        <source>Product Multi Layout</source>
+        <target>Produkt Mehrfachlayout</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:15</note>
+      </trans-unit>
+      <trans-unit id="2522c683186ee0dd472658e0f5a4e308">
+        <source>Panel Tool</source>
+        <target>Bedienfeld-Werkzeug</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:15</note>
+      </trans-unit>
+      <trans-unit id="671fcb3ca53cbc54cde7bcf4ebf01a38">
+        <source>Layout Mod</source>
+        <target>Layout Mod</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:19</note>
+      </trans-unit>
+      <trans-unit id="d721757161f7f70c5b0949fdb6ec2c30">
+        <source>Theme</source>
+        <target>Thema</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="7a1920d61156abc05a60135aefe8bc67">
+        <source>Default</source>
+        <target>Standard</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="fdb2c741397cac29e9a68164925b0dd6">
+        <source>Float Header</source>
+        <target>Schwimmerkopf</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Ja</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b">
+        <source>No</source>
+        <target>Nein</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="739abe09ca70c329d652a629fe1b3c9b">
+        <source>Live Theme Editor</source>
+        <target>Live-Theme-Editor</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="2d09eb77e92cfef7f76b2aabf984ea2f">
+        <source>Those Images in folder YOURTHEME/assets/img/patterns/</source>
+        <target>Diese Bilder im Ordner YOURTHEME / assets / img / patterns /</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:90</note>
+      </trans-unit>
+      <trans-unit id="e9cb217697088a98b1937d111d936281">
+        <source>Attachment</source>
+        <target>Befestigung</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:98</note>
+      </trans-unit>
+      <trans-unit id="9ba66a9f92056682b7d86a38b4bc18c0">
+        <source>Not set</source>
+        <target>Nicht eingestellt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:118</note>
+      </trans-unit>
+      <trans-unit id="52f5e0bc3859bc5f5e25130b6c7e8881">
+        <source>Position</source>
+        <target>Stellung</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:107</note>
+      </trans-unit>
+      <trans-unit id="7020426cfb0a204051be4b3053d2acc8">
+        <source>Repeat</source>
+        <target>Wiederholen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:116</note>
+      </trans-unit>
+      <trans-unit id="c49484faf79e2388b580e49444d6ac11">
+        <source>Inherit</source>
+        <target>Erben</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\info\paneltool.tpl:130</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\testimonials-h3\ApBlockCarousel.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="c91e4ee170226d66e90f99ba917e4c20">
+        <source>Quick view</source>
+        <target>Schnellansicht</target>
+        <note>Context:
+
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\front\profiles\id_gencode_5ba3b45783a8a_1537455191.tpl:1</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\ApProductList.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8524de963f07201e5c086830d370797f">
+        <source>Loading...</source>
+        <target>Wird geladen...</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\ApProductList.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="f6b5f35f6564a567f1810df0b730e3dc">
+        <source>Load more</source>
+        <target>Mehr laden</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\ApProductList.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\testimonials-h3\ApBlockOwlCarouselItem.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="1c481aa99d081c32182011a758f73d33">
+        <source>%s</source>
+        <target>%s</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_shoppingcart\ps_shoppingcart.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="89cc628e74ec814d406bea95594b5396">
+        <source>My cart:</source>
+        <target>Mein Warenkorb:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_shoppingcart\ps_shoppingcart.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="877300276a72c788dc01d357238b515b">
+        <source>Your cart is currently empty.</source>
+        <target>Ihr Warenkorb ist derzeit leer.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_shoppingcart\ps_shoppingcart.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\ApInstagram.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="e928646f031c1da65ac1189b2fccc903">
+        <source>View all in instagram</source>
+        <target>Alle in Instagram anzeigen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\ApInstagram.tpl:63</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\image-category-h5\ApCategoryImage.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="0b4db271fc4624853e634ef6882ea8be">
+        <source>View all</source>
+        <target>Alle ansehen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\image-category-h5\ApCategoryImage.tpl:74</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\ApBlog.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="44cb5634317a9970412537154d8b98b2">
+        <source>No blog at this time.</source>
+        <target>Kein Blog zu diesem Zeitpunkt.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\ApBlog.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_newproducts\views\templates\hook\ps_newproducts.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="d8d7ad6abfd08c27baa8bedb78c72ddb">
+        <source>View All</source>
+        <target>Alle anzeigen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_newproducts\views\templates\hook\ps_newproducts.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="9ff0635f5737513b1a6f559ac2bff745">
+        <source>New products</source>
+        <target>Neue Produkte</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_newproducts\views\templates\hook\ps_newproducts.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="53e5aa2c97fef1555d2511de8218c544">
+        <source>By</source>
+        <target>Durch</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="e58bb89594210048de97176850f7d229">
+        <source><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%d"]]></source>
+        <target><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%d"]]></target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="f7096ec5e928c05551088484f27b5c01">
+        <source><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%B"]]></source>
+        <target><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%B"]]></target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:26</note>
+      </trans-unit>
+      <trans-unit id="7b4eddadb033f194421e150323c431b3">
+        <source><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%Y"]]></source>
+        <target><![CDATA[marty_modifier_date_format(strtotime($_smarty_tpl->tpl_vars['blog']->value['date_add']),"%Y"]]></target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="06d4cd63bde972fc66a0aed41d2f5c51">
+        <source>comment</source>
+        <target>Anmerkung</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:44</note>
+      </trans-unit>
+      <trans-unit id="f09328d495fa622700aabe5707edf00b">
+        <source>hit</source>
+        <target>Schlägt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\appagebuilder\views\templates\hook\letter-blog\BlogItem.tpl:59</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>Im</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="521c36a31c2762741cf0f8890cbe05e3">
+        <source>On</source>
+        <target>Auf</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="32b502f33a535f75dcbf63f6753c631e">
+        <source>Tags:</source>
+        <target>Stichworte:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="2d8bb0220c9fd05edb0178050e8c76cc">
+        <source>In Same Category</source>
+        <target>In derselben Kategorie</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="ce7c9dd6bcaf9d54b2501ed1c8e6d5d1">
+        <source>Related by Tags</source>
+        <target>Ähnlich by Tags</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="bfad8746759ef359ed37bae63f368ac1">
+        <source>Sorry, This blog is not avariable. May be this was unpublished or deleted.</source>
+        <target>Sorry, Dieser Blog ist nicht avariable. sein kann, dies war nicht veröffentlichte oder gelöscht.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\product-new-h3\ApProductCarousel.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="1a8c0228da8fb16885881e6c97b96f08">
+        <source>No products at this time.</source>
+        <target>Zurzeit keine Produkte.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\appagebuilder\views\templates\hook\product-new-h3\ApProductCarousel.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\ps_languageselector\ps_languageselector.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="0885f0c211f74834f0109c5abaf4cdc4">
+        <source>Language:</source>
+        <target>Sprache:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_languageselector\ps_languageselector.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="4994a8ffeba4ac3140beb89e8d41f174">
+        <source>Language</source>
+        <target>Sprache</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_languageselector\ps_languageselector.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="217148b9c333b63a3fb1883670f5bff2">
+        <source>Language dropdown</source>
+        <target>Dropdown Sprachen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_languageselector\ps_languageselector.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_currencyselector\ps_currencyselector.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="77295c7d814e7397c55f64ec06313984">
+        <source>Currency:</source>
+        <target>Währung:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_currencyselector\ps_currencyselector.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="386c339d37e737a436499d423a77df0c">
+        <source>Currency</source>
+        <target>Währung</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_currencyselector\ps_currencyselector.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="72d43a6525ac95e552ca4eaf1dc0ad1a">
+        <source>Currency dropdown</source>
+        <target>Währungsschalter</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_currencyselector\ps_currencyselector.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\blockgrouptop\views\templates\hook\blockgrouptop.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="2cbfb6731610056e1d0aaacde07096c1">
+        <source>View my customer account</source>
+        <target>Mein Kundenkonto anzeigen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\blockgrouptop\views\templates\hook\blockgrouptop.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311">
+        <source>Sign out</source>
+        <target>Ausloggen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\blockgrouptop\views\templates\hook\blockgrouptop.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27">
+        <source>Log in to your customer account</source>
+        <target>Melden Sie sich bei Ihrem Kundenkonto an</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\blockgrouptop\views\templates\hook\blockgrouptop.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="b6d4223e60986fa4c9af77ee5f7149c5">
+        <source>Sign in</source>
+        <target>Anmelden</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\blockgrouptop\views\templates\hook\blockgrouptop.tpl:81</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8b1a9953c4611296a827abf8c47804d7">
+        <source>Hello</source>
+        <target>Hallo</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="d95cf4ab2cbf1dfb63f066b50558b07d">
+        <source>My account</source>
+        <target>Mein Konto</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
+        <source>Checkout</source>
+        <target>Überprüfen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Wunschliste</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:95</note>
+      </trans-unit>
+      <trans-unit id="7eece51cf3938103677db7a5051ef8f5">
+        <source>Compare</source>
+        <target>Vergleichen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:106</note>
+      </trans-unit>
+      <trans-unit id="08bd40c7543007ad06e4fce31618f6ec">
+        <source>Account</source>
+        <target>Konto</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_customersignin\ps_customersignin.tpl:26</note>
+      </trans-unit>
+      <trans-unit id="bea8d9e6a0d57c4a264756b4f9822ed9">
+        <source>My Account</source>
+        <target>Mein Konto</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\ps_customersignin\ps_customersignin.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\nav.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Kontakt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\nav.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Rufen Sie: [1]%phone%[/1]</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\nav.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\category.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8971af49a12a5e4a7dbe9d31f0e56ae1">
+        <source>Sorry, We are updating data, please come back later!!!!</source>
+        <target>Entschuldigung, wir aktualisieren Daten, bitte komm später wieder !!!!</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\category.tpl:116</note>
+      </trans-unit>
+      <trans-unit id="2faf27eb519570d498ac5f0b9672cd96">
+        <source>Childrens</source>
+        <target>Kinder</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\category.tpl:50</note>
+      </trans-unit>
+      <trans-unit id="e586c16f02ec61b8fc930d42681835b2">
+        <source>Recent blog posts</source>
+        <target>Neueste Blogposts</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\category.tpl:68</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="94936ad65bdf649c16b14b27794effb6">
+        <source>Posted By</source>
+        <target>Gepostet von</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="0be8406951cdfda82f00f79328cf4efc">
+        <source>Comment</source>
+        <target>Kommentar</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="630058029627ce58e7571e7a5b6ec591">
+        <source>Full Name</source>
+        <target>Vollständiger Name</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="387af98b1574a74e12eb99f3ed220831">
+        <source>Enter your full name</source>
+        <target>Geben Ihren vollständigen Namen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>E-Mail</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="95d3fa6b9e69c588a333f4e78139a7cd">
+        <source>Enter your email</source>
+        <target>Gib deine E-Mail</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="4e9ce95a0f4e750b14ad77bc86d62479">
+        <source>Enter your comment</source>
+        <target>Geben Sie Kommentar</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="a4d3b161ce1309df1c4e25df28694b7b">
+        <source>Submit</source>
+        <target>Absenden</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Bemerkungen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:14</note>
+      </trans-unit>
+      <trans-unit id="1b60ba0c9bf033a378647a9788586bbe">
+        <source>Created On</source>
+        <target>Erstellt am</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="41e29f72f5517ea06e3db9c130dfc282">
+        <source>Comment Link</source>
+        <target>Kommentar Link</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="ba3f8c9fbcc595f55b778118b65fc8ea">
+        <source>Leave your comment</source>
+        <target>Hinterlasse ein Kommentar</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="45d048c35e3cfd449dc0a1b503cd103a">
+        <source>Captcha</source>
+        <target>Captcha</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_local_comment.tpl:76</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="ebfe5e1791db03c4cd6ab95801e0977d">
+        <source>Hit</source>
+        <target>Treffer</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="9d1a0949c39e66a0cd65240bc0ac9177">
+        <source>Sunday</source>
+        <target>Sonntag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:95</note>
+      </trans-unit>
+      <trans-unit id="6f8522e0610541f1ef215a22ffa66ff6">
+        <source>Monday</source>
+        <target>Montag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:96</note>
+      </trans-unit>
+      <trans-unit id="5792315f09a5d54fb7e3d066672b507f">
+        <source>Tuesday</source>
+        <target>Dienstag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:97</note>
+      </trans-unit>
+      <trans-unit id="796c163589f295373e171842f37265d5">
+        <source>Wednesday</source>
+        <target>Mittwoch</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:98</note>
+      </trans-unit>
+      <trans-unit id="78ae6f0cd191d25147e252dc54768238">
+        <source>Thursday</source>
+        <target>Donnerstag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:99</note>
+      </trans-unit>
+      <trans-unit id="c33b138a163847cdb6caeeb7c9a126b4">
+        <source>Friday</source>
+        <target>Freitag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="8b7051187b9191cdcdae6ed5a10e5adc">
+        <source>Saturday</source>
+        <target>Samstag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:101</note>
+      </trans-unit>
+      <trans-unit id="86f5978d9b80124f509bdb71786e929e">
+        <source>January</source>
+        <target>Januar</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:103</note>
+      </trans-unit>
+      <trans-unit id="659e59f062c75f81259d22786d6c44aa">
+        <source>February</source>
+        <target>Februar</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:104</note>
+      </trans-unit>
+      <trans-unit id="fa3e5edac607a88d8fd7ecb9d6d67424">
+        <source>March</source>
+        <target>März</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:105</note>
+      </trans-unit>
+      <trans-unit id="3fcf026bbfffb63fb24b8de9d0446949">
+        <source>April</source>
+        <target>April</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:106</note>
+      </trans-unit>
+      <trans-unit id="195fbb57ffe7449796d23466085ce6d8">
+        <source>May</source>
+        <target>Kann</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:107</note>
+      </trans-unit>
+      <trans-unit id="688937ccaf2a2b0c45a1c9bbba09698d">
+        <source>June</source>
+        <target>Juni</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:108</note>
+      </trans-unit>
+      <trans-unit id="1b539f6f34e8503c97f6d3421346b63c">
+        <source>July</source>
+        <target>Juli</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:109</note>
+      </trans-unit>
+      <trans-unit id="41ba70891fb6f39327d8ccb9b1dafb84">
+        <source>August</source>
+        <target>August</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:110</note>
+      </trans-unit>
+      <trans-unit id="cc5d90569e1c8313c2b1c2aab1401174">
+        <source>September</source>
+        <target>September</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:111</note>
+      </trans-unit>
+      <trans-unit id="eca60ae8611369fe28a02e2ab8c5d12e">
+        <source>October</source>
+        <target>Oktober</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:112</note>
+      </trans-unit>
+      <trans-unit id="7e823b37564da492ca1629b4732289a8">
+        <source>November</source>
+        <target>November</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:113</note>
+      </trans-unit>
+      <trans-unit id="82331503174acbae012b2004f6431fa5">
+        <source>December</source>
+        <target>Dezember</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_listing_blog.tpl:114</note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Weiterlesen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\blog.tpl:148</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="a3799f5441906704db5ec1706bec2473">
+        <source>Filter Blogs By Tag</source>
+        <target>Filtern von Blogs nach Tag</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="427629e1d4324184acec51fbb44bd903">
+        <source>Filter Blogs By Blogger</source>
+        <target>Blogs durchsuchen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e5a8e4b3939f0cf0a47b8e5cc0aad0a4">
+        <source>Lastest Blogs</source>
+        <target>Letzte Blogs</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="bf1981220040a8ac147698c85d55334f">
+        <source>RSS</source>
+        <target>RSS</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="883606d2ba4f82eaea29050775f38f80">
+        <source>Sorry, We are update data, please come back later!!!!</source>
+        <target>Entschuldigen Sie bitte, wir sind Updatedaten, kommen bitte später zurück !!!!</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\listing.tpl:88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_diquis_comment.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="ea73c46132229a90f0b82d20a8806078">
+        <source>Please enable JavaScript to view the.</source>
+        <target>Bitte aktivieren Sie JavaScript, um die.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_diquis_comment.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="150ded9fdd200aea93b8044ccf352657">
+        <source>Comments powered by Disqus.</source>
+        <target>Kommentare von Disqus angetrieben.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_diquis_comment.tpl:22</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_pagination.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="0f15cd3899d40195ed7c9b443500e809">
+        <source>Showing %start% - %showing% of %total% items</source>
+        <target>Zeigen %start% - %showing% von %total% Artikel</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_pagination.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="65ce48ad103a31c050575ba3e8494284">
+        <source>Showing %start% - %showing% of 1 item</source>
+        <target>Zeigen %start% - %showing% von 1 Artikel</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_pagination.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_imageslider\views\templates\hook\slider.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="dd1f775e443ff3b9a89270713580a51b">
+        <source>Previous</source>
+        <target>Zurück</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_imageslider\views\templates\hook\slider.tpl:50</note>
+      </trans-unit>
+      <trans-unit id="10ac3d04253ef7e1ddc73e6091c0cd55">
+        <source>Next</source>
+        <target>Weiter</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_imageslider\views\templates\hook\slider.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="6dbac206aa2d7e374277ae9ff8ec1987">
+        <source>Carousel buttons</source>
+        <target>Karussell-Felder</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_imageslider\views\templates\hook\slider.tpl:45</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_social.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8ebb3e0f09899fb8aac0a325ada5b7ce">
+        <source>Like This</source>
+        <target>So was</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_social.tpl:13</note>
+      </trans-unit>
+      <trans-unit id="2491bc9c7d8731e1ae33124093bc7026">
+        <source>Twitter</source>
+        <target>Twitter</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\front\default\_social.tpl:20</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\hook\categories_menu.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="979ac0eb39f23e70f45b79282ccab548">
+        <source>Blog Categories</source>
+        <target>Blog Kategorien</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\hook\categories_menu.tpl:15</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\hook\leoblogrss.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="10fd25dcd3353c0ba3731d4a23657f2e">
+        <source>No RSS feed added</source>
+        <target>Kein RSS-Feed hinzugefügt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leoblog\views\templates\hook\leoblogrss.tpl:23</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\front\leo_products_compare.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="7af832e9c71671de0323487c86b6b702">
+        <source>Products Comparison</source>
+        <target>Produkte Vergleich</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\front\leo_products_compare.tpl:13</note>
+      </trans-unit>
+      <trans-unit id="d6295c05503596b3ed3528aee83e3ef7">
+        <source>Features:</source>
+        <target>Eigenschaften:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\front\leo_products_compare.tpl:20</note>
+      </trans-unit>
+      <trans-unit id="f5e15309ff0396474b8421ef48871d0b">
+        <source>No features to compare</source>
+        <target>Keine Features vergleichen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\front\leo_products_compare.tpl:109</note>
+      </trans-unit>
+      <trans-unit id="234a9674e80b9c04a685075ad3ea6950">
+        <source>There are no products selected for comparison.</source>
+        <target>Es gibt keine Produkte zum Vergleich ausgewählt.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\front\leo_products_compare.tpl:117</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_compare_button.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="201f644e542b0230551936ae7af3169e">
+        <source>Remove from Compare</source>
+        <target>Entfernen von Vergleichen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_compare_button.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="7f5508c884f40e3378895c83d99cbbd3">
+        <source>Add to Compare</source>
+        <target>Auf die Vergleichsliste</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_compare_button.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="aa1411cc44ecfafbca0d71427fe3dc7a">
+        <source>Add to compare</source>
+        <target>Hinzufügen vergleichen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_compare_button.tpl:13</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_cart_button.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>In Warenkorb</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_cart_button.tpl:23</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_product_review_extra.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="dda9c06f33071c9b6fc237ee164109d8">
+        <source>Rating</source>
+        <target>Wertung</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\leofeature\views\templates\hook\leo_product_review_extra.tpl:13</note>
+      </trans-unit>
+      <trans-unit id="34e80a799d144cfe4af46815e103f017">
+        <source>Reviews</source>
+        <target>Bewertungen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_product_review_extra.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="257c4d381ec51390455c5d9ae414e415">
+        <source>Add Reviews</source>
+        <target>In Bewertungen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_product_review_extra.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="2d96bb66d8541a89620d3c158ceef42b">
+        <source>Add to wishlist</source>
+        <target>In der Wunschliste</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="d7e2d3dbf5daf266a0877428e0e1b8fb">
+        <source>Remove from Wishlist</source>
+        <target>Aus Wunschliste entfernen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="6a5373df703ab2827a4ba7facdfcf779">
+        <source>Add to Wishlist</source>
+        <target>Auf den Wunschzettel</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_kola\themes\at_kola\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="347da0da598694c57fff1cbaa197d615">
+        <source>Related Products</source>
+        <target>Ähnliche Produkte</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="2c3532bce2fd26cb5c2119a57a95d0fa">
+        <source>(There are %s other product in the same category)</source>
+        <target>(Es gibt %s andere Produkte in der gleichen Kategorie)</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="fd82ac273b4c69c01c34c4f4e7d79ce7">
+        <source>(There are %s other products in the same category)</source>
+        <target>(Es gibt %s andere Produkte der gleichen Kategorie)</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Ruf uns an: [1]%phone%[/1]</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\nav.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Kontakt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="c7a7395519f0547b6676cf02431dcbd0">
+        <source>[1]%phone%[/1]</source>
+        <target>[1]%phone%[/1]</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="bcb2603bd53059cc5b6aaee6f625c77a">
+        <source>[1]%fax%[/1]</source>
+        <target>[1]%fax%[/1]</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="ae0bae303e24e9b202cdc9c95baf980c">
+        <source>[1]%email%[/1]</source>
+        <target>[1]%email%[/1]</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo.tpl:72</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323">
+        <source>Store information</source>
+        <target>Kontakt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="f523bbd96594120c4f641d7e36ededd4">
+        <source>Visit Us</source>
+        <target>Besuchen Sie uns</target>
+        <note>Context:
+File: D:\xampp\htdocs\home_work\at_folio\themes\at_folio\modules\ps_contactinfo\ps_contactinfo-rich.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="78cfa8efc00de6fa1565599abb676962">
+        <source>Give us a call</source>
+        <target>Ruf uns an</target>
+        <note>Context:
+File: D:\xampp\htdocs\home_work\at_folio\themes\at_folio\modules\ps_contactinfo\ps_contactinfo-rich.tpl:40</note>
+      </trans-unit>
+      <trans-unit id="6164ea9b1b6eb410c5131e79a77ab611">
+        <source>Call:</source>
+        <target>Anruf:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\ps_contactinfo\ps_contactinfo-rich.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f">
+        <source>Fax:</source>
+        <target>Fax:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="c765d8826c054e69a782de30463bd39f">
+        <source>Connect Online</source>
+        <target>Online verbinden</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_contactinfo\ps_contactinfo-rich.tpl:57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="7373ef469e2601cdc067e38068f09dc8">
+        <source>Get in touch</source>
+        <target>In Kontakt kommen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="b26917587d98330d93f87808fc9d7267">
+        <source>Subscribe</source>
+        <target>Abonnieren</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\ps_shoppingcart\ps_shoppingcart.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="add0328a875b0339a40d722b27d77f13">
+        <source>Just start searching...</source>
+        <target>Fang einfach an zu suchen ...</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\leo_zaie\themes\leo_zaie\modules\ps_shoppingcart\ps_shoppingcart.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_socialfollow\ps_socialfollow.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="88e1a4d12a9746b012a450693ee01526">
+        <source>Connect and follow</source>
+        <target>Verbinden und folgen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_socialfollow\ps_socialfollow.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\ps_specials\views\templates\hook\ps_specials.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="f95ceb82c51c99dc9b9e5678b291c44b">
+        <source>All sale products</source>
+        <target>Alle Verkaufsprodukte</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_specials\views\templates\hook\ps_specials.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_viewedproduct\views\template\hook\ps_viewedproduct.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="43560641f91e63dc83682bc598892fa1">
+        <source>Viewed products</source>
+        <target>Angesehene Produkte</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\modules\ps_viewedproduct\views\template\hook\ps_viewedproduct.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\active_filters.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="2143f8cb66482342b35208bdc3fd949c">
+        <source>Active filters</source>
+        <target>Aktive Filter</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\active_filters.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\facets.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="7a1c5301da6b1ce9e4345bd501397045">
+        <source>(no filter)</source>
+        <target>(kein Filter)</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\facets.tpl:123</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\products-top.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="5174d1309f275ba6f275db3af9eb3e18">
+        <source>Grid</source>
+        <target>Gitter</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\products-top.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>Liste</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\products-top.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\sort-orders.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="6f9d01a14011f05fffe48559583fc609">
+        <source>Sort by:</source>
+        <target>Sortiert nach:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\catalog\_partials\sort-orders.tpl:25</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\checkout\_partials\steps\checkout-step.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="de95b43bceeb4b998aed4aed5cef1ae7">
+        <source>edit</source>
+        <target>bearbeiten</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\checkout\_partials\steps\checkout-step.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\checkout\_partials\steps\payment.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Schließen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\checkout\_partials\steps\payment.tpl:151</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\category.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="6c5c05a5b907385c60c3baa4087ea1a1">
+        <source>List of sub categories in %name%:</source>
+        <target>Unterkategorien in %name%:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\category.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="1d34e1ee316477a8f64a835307f5b84e">
+        <source>List of pages in %category_name%:</source>
+        <target>Seiten von %category_name%:</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\category.tpl:45</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\sitemap.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Sitemap</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\sitemap.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\stores.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>Unsere Filialen</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\stores.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="adc4f9f9cccaa450c10977d50da58d8d">
+        <source>About and Contact</source>
+        <target>Über uns / Kontakt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\cms\stores.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\customer\order-detail.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="44749712dbec183e983dcd78a7736c41">
+        <source>Date</source>
+        <target>Datum</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\customer\order-detail.tpl:188</note>
+      </trans-unit>
+      <trans-unit id="ec53a8c4f07baed5d8825072c89799be">
+        <source>Status</source>
+        <target>Status</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\customer\order-detail.tpl:89</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\customer\_partials\my-account-links.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5">
+        <source>Home</source>
+        <target>Zuhause</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\customer\_partials\my-account-links.tpl:32</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\maintenance.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="27b4383b976d6be981598d457cc7e62d">
+        <source>We'll be back soon.</source>
+        <target>Wir sind bald wieder da.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\maintenance.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\not-found.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="7e74146e0ff2e289abfc8bec1d2b2a18">
+        <source>Sorry for the inconvenience.</source>
+        <target>Entschuldigen Sie die Unannehmlichkeiten.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\not-found.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="519ee4cd58a2b719f7113965cc949d24">
+        <source>Search again what you are looking for</source>
+        <target>Suchen Sie erneut</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\not-found.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\restricted-country.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="6351030f724f6f42fd11ec9aa6ee8c76">
+        <source>403 Forbidden</source>
+        <target>403 Nicht erlaubt</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\restricted-country.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="cf8092a0be7b972d6cee3db90bfaf923">
+        <source>You cannot access this store from your country. We apologize for the inconvenience.</source>
+        <target>Sie können aus Ihrem Land nicht auf unseren Shop zugreifen. Wir bitten Sie, diese Unannehmlichkeit zu entschuldigen.</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_favou\themes\at_favou\templates\errors\restricted-country.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\contactform\views\templates\widget\contactform.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="9ce6fcc24bfb9f17578dcd0fa7c4f205">
+        <source>Send us a message</source>
+        <target>Schick uns eine Nachricht</target>
+        <note>Context:
+File: E:\xampp\htdocs\home_work\at_nova\themes\at_nova\modules\contactform\views\templates\widget\contactform.tpl:43</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,33 @@
+****Modules change:
+- modules\ps_contactinfo\ps_contactinfo.tpl
+- modules\ps_shoppingcart\modal.tpl
+- modules\ps_shoppingcart\ps_shoppingcart.tpl
+- modules\ps_shoppingcart\ps_shoppingcart-product-line.tpl
+- modules\ps_viewedproduct\views\templates\hook\ps_viewedproduct.tpl
+
+****templates change:
+- templates\_partials\form-errors.tpl
+- templates\_partials\form-fields.tpl
+- templates\catalog\_partials\miniatures\product.tpl
+- templates\catalog\_partials\category-header.tpl
+- templates\catalog\_partials\facets.tpl
+- templates\catalog\_partials\product-add-to-cart.tpl
+- add new file templates\catalog\_partials\product-flags.tpl
+- templates\catalog\_partials\product-prices.tpl
+- templates\catalog\_partials\products-top.tpl
+- templates\catalog\_partials\product-variants.tpl
+- templates\catalog\_partials\quickview.tpl
+- templates\catalog\listing\product-list.tpl
+- templates\catalog\product.tpl
+- templates\checkout\_partials\steps\personal-information.tpl
+- templates\checkout\_partials\cart-detailed-product-line.tpl
+- templates\checkout\_partials\cart-detailed-totals.tpl
+- templates\checkout\_partials\cart-summary.tpl
+- add new file templates\checkout\_partials\cart-summary-subtotals.tpl
+- templates\checkout\_partials\cart-summary-totals.tpl
+- templates\checkout\_partials\cart-voucher.tpl
+- templates\checkout\_partials\order-confirmation-table.tpl
+- templates\checkout\checkout.tpl
+
+****JS change:
+- assets\js\theme.js 

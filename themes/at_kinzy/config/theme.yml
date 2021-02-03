@@ -1,0 +1,154 @@
+name: at_kinzy
+display_name: Kinzy - Electronics Store
+theme_key: 01c1568ad8bd3a91a90c5c160dd8cf8b
+version: 2.1
+author:
+  name: "Leotheme Team"
+  email: "leotheme@gmail.com"
+  url: "http://www.leotheme.com"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+#  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+dependencies:
+  modules:
+    - appagebuilder
+    - leobootstrapmenu
+    - leoslideshow
+    - leoblog
+    - blockgrouptop
+    - leofeature
+    - leoquicklogin
+    - leoproductsearch
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_disable:
+     - ps_mainmenu
+     - ps_imageslider
+     - ps_featuredproducts
+     - ps_customtext
+  hooks:
+    modules_to_hook:
+      displayNav1:
+        - appagebuilder
+      displayNav2:
+        - appagebuilder
+      displayTop:
+        - appagebuilder
+      displayHome: 
+        - leoblog
+      displayFooterBefore:
+        - appagebuilder
+      displayFooter:
+        - appagebuilder
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+      displayRightColumn:
+        - ps_categorytree
+        - leoblog
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayOrderConfirmation2:
+        - ps_featuredproducts
+      displayCrossSellingShoppingCart:
+        - ps_featuredproducts
+      actionAdminBefore:
+        - appagebuilder
+        - leobootstrapmenu
+        - leoslideshow
+        - leoblog
+        - blockgrouptop
+        - leofeature
+        - leoquicklogin
+        - leoproductsearch
+  image_types:
+    cart_default:
+      width: 135
+      height: 135
+      scope: [products]
+    small_default:
+      width: 100
+      height: 100
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 239
+      height: 239
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 600
+      height: 600
+      scope: [products]
+    large_default:
+      width: 1000
+      height: 1000
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 1920
+      height: 300
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+    manu_default:
+      width: 210
+      height: 100
+      scope: [manufacturers]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+    manufacturer: layout-left-column
+    supplier: layout-left-column
+    module-leoblog-blog: layout-right-column
+    module-leoblog-list: layout-right-column
+    module-leoblog-category: layout-right-column

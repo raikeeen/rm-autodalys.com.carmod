@@ -1,0 +1,924 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*******************DONGND CSS FOR QUICKLOGIN FORM BEGIN*****************************/
+@keyframes "cssload-spin" {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-o-keyframes "cssload-spin" {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-ms-keyframes "cssload-spin" {
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-webkit-keyframes "cssload-spin" {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-moz-keyframes "cssload-spin" {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+/*******************DONGND CSS FOR QUICKLOGIN FORM END*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN MODAL BEGIN*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN MODAL END*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR BEGIN*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR END*****************************/
+.leo-dropdown-wrapper {
+  visibility: hidden;
+  border: none;
+  padding: 20px 20px 0 20px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.dropdown .leo-dropdown-wrapper {
+  margin-top: 50px;
+  left: auto;
+  right: 0; }
+  .rtl .dropdown .leo-dropdown-wrapper {
+    left: 0;
+    right: auto; }
+.dropdown.open .leo-dropdown-wrapper {
+  margin-top: 10px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  visibility: visible; }
+
+.dropup .ap-quick-login .popup-content {
+  top: inherit;
+  bottom: 100%; }
+.dropup.open .leo-dropdown-wrapper {
+  margin-bottom: 10px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  visibility: visible; }
+
+.leo-form {
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transition: transform 0.3s ease; }
+  .leo-form.leo-form-inactive {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+  .leo-form.full-width {
+    width: 100%; }
+    .leo-form.full-width .lql-calllogin, .leo-form.full-width .lql-callregister {
+      display: block; }
+
+.leo-quicklogin-form {
+  position: relative;
+  overflow: initial; }
+  .leo-quicklogin-form.html {
+    max-width: 100%; }
+  .leo-quicklogin-form .lql-action {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ebebeb; }
+  .leo-quicklogin-form .lql-action-bt {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    float: left; }
+    .rtl .leo-quicklogin-form .lql-action-bt {
+      float: right; }
+    .leo-quicklogin-form .lql-action-bt .lql-bt {
+      position: relative;
+      z-index: 1;
+      padding: 15px;
+      margin-bottom: 0;
+      font-weight: 500;
+      font-size: 18px; }
+      .leo-quicklogin-form .lql-action-bt .lql-bt:before {
+        content: "";
+        background: #1467c1;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: top;
+        -moz-transform-origin: top;
+        -ms-transform-origin: top;
+        -o-transform-origin: top;
+        transform-origin: top;
+        -webkit-transition: transform 0.3s ease;
+        -moz-transition: transform 0.3s ease;
+        -ms-transition: transform 0.3s ease;
+        -o-transition: transform 0.3s ease;
+        transition: transform 0.3s ease; }
+        .rtl .leo-quicklogin-form .lql-action-bt .lql-bt:before {
+          right: 0;
+          left: auto; }
+      .leo-quicklogin-form .lql-action-bt .lql-bt.lql-bt-login {
+        border-right: 1px solid #ebebeb; }
+        .rtl .leo-quicklogin-form .lql-action-bt .lql-bt.lql-bt-login {
+          border-left: 1px solid #ebebeb;
+          border-right: inherit; }
+      .leo-quicklogin-form .lql-action-bt .lql-bt.lql-active {
+        color: #FFFFFF; }
+        .leo-quicklogin-form .lql-action-bt .lql-bt.lql-active:before {
+          -webkit-transform: scaleY(1);
+          -moz-transform: scaleY(1);
+          -ms-transform: scaleY(1);
+          -o-transform: scaleY(1);
+          transform: scaleY(1); }
+
+.lql-form-bt .leoquicklogin-icon {
+  margin: 0; }
+
+.leo-login-form.leo-form-inactive {
+  right: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%); }
+  .rtl .leo-login-form.leo-form-inactive {
+    left: 0;
+    right: auto; }
+
+.leo-register-form.leo-form-inactive {
+  left: 0;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%); }
+  .rtl .leo-register-form.leo-form-inactive {
+    right: 0;
+    left: auto; }
+
+.leo-resetpass-form {
+  display: none; }
+
+.lql-callregister, .lql-calllogin {
+  display: none; }
+
+.leoquicklogin-loading, .leoquicklogin-icon {
+  display: none; }
+
+.leoquicklogin-cssload-speeding-wheel {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-animation: cssload-spin 800ms infinite linear;
+  -moz-animation: cssload-spin 800ms infinite linear;
+  animation: cssload-spin 800ms infinite linear; }
+
+.lql-form-mesg {
+  display: none;
+  margin: 0; }
+  .lql-form-mesg label {
+    text-align: left; }
+    .rtl .lql-form-mesg label {
+      text-align: right; }
+
+.full-width .leo-login-title .title-both, .leo-login-title .title-only {
+  display: none; }
+
+.full-width .leo-login-title .title-only, .leo-login-title .title-both {
+  display: block; }
+
+/*******************DONGND CSS FOR QUICKLOGIN FORM END*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN MODAL BEGIN*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN MODAL END*****************************/
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR BEGIN*****************************/
+body .leoquicklogin-active-slidebar {
+  /* overflow: hidden;
+  @include rtl-padding-right(17px); */ }
+body .lql_is_gen_rtl .leoquicklogin-active-slidebar {
+  padding-right: 0;
+  padding-left: 17px; }
+  .rtl body .lql_is_gen_rtl .leoquicklogin-active-slidebar {
+    padding-left: 0;
+    padding-right: inherit; }
+  .rtl body .lql_is_gen_rtl .leoquicklogin-active-slidebar {
+    padding-right: 17px;
+    padding-left: inherit; }
+body main {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.leoquicklogin-mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .leoquicklogin-mask.active {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
+.leoquicklogin-slidebar-wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  background: #FFFFFF;
+  width: 100%; }
+
+.leoquicklogin-slidebar {
+  z-index: 9999;
+  position: fixed;
+  padding: 0 15px;
+  visibility: hidden;
+  display: none;
+  width: 400px;
+  margin: auto;
+  padding: 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  @media (max-width: 480px) {
+    .leoquicklogin-slidebar {
+      width: auto;
+      margin: 20px 10px; } }
+  .leoquicklogin-slidebar.slidebar_left {
+    display: block;
+    height: 100%;
+    top: 0;
+    margin: 0px;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); }
+    .rtl .leoquicklogin-slidebar.slidebar_left {
+      right: 0;
+      left: auto; }
+    .leoquicklogin-slidebar.slidebar_left.active {
+      visibility: visible;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+      -moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -o-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -ms-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.17); }
+    .leoquicklogin-slidebar.slidebar_left .leoquicklogin-slidebar-top {
+      display: block;
+      right: 15px; }
+      .rtl .leoquicklogin-slidebar.slidebar_left .leoquicklogin-slidebar-top {
+        left: 15px;
+        right: auto; }
+    .leoquicklogin-slidebar.slidebar_left .leoquicklogin-slidebar-wrapper {
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto; }
+  .leoquicklogin-slidebar.push_slidebar_left {
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); }
+    .rtl .leoquicklogin-slidebar.push_slidebar_left {
+      right: 0;
+      left: auto; }
+    .leoquicklogin-slidebar.push_slidebar_left.active {
+      visibility: visible;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0); }
+    .leoquicklogin-slidebar.push_slidebar_left .leoquicklogin-slidebar-top {
+      display: block; }
+  .leoquicklogin-slidebar.slidebar_right {
+    display: block;
+    height: 100%;
+    top: 0;
+    margin: 0px;
+    right: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+    .rtl .leoquicklogin-slidebar.slidebar_right {
+      left: 0;
+      right: auto; }
+    .leoquicklogin-slidebar.slidebar_right.active {
+      visibility: visible;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+      -moz-box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -webkit-box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -o-box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      -ms-box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.17);
+      box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.17); }
+    .leoquicklogin-slidebar.slidebar_right .leoquicklogin-slidebar-top {
+      display: block;
+      right: 15px; }
+      .rtl .leoquicklogin-slidebar.slidebar_right .leoquicklogin-slidebar-top {
+        left: 15px;
+        right: auto; }
+    .leoquicklogin-slidebar.slidebar_right .leoquicklogin-slidebar-wrapper {
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto; }
+  .leoquicklogin-slidebar.push_slidebar_right {
+    display: block;
+    height: 100%;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+    .rtl .leoquicklogin-slidebar.push_slidebar_right {
+      left: 0;
+      right: auto; }
+    .leoquicklogin-slidebar.push_slidebar_right.active {
+      visibility: visible;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0); }
+    .leoquicklogin-slidebar.push_slidebar_right .leoquicklogin-slidebar-top {
+      display: block; }
+  .leoquicklogin-slidebar.slidebar_top {
+    display: block;
+    top: 0;
+    left: 50%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transform: translate(-50%, -200%);
+    -moz-transform: translate(-50%, -200%);
+    -ms-transform: translate(-50%, -200%);
+    -o-transform: translate(-50%, -200%);
+    transform: translate(-50%, -200%); }
+    .leoquicklogin-slidebar.slidebar_top.active {
+      visibility: visible;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+    .leoquicklogin-slidebar.slidebar_top .leoquicklogin-slidebar-bottom {
+      display: block;
+      right: 15px; }
+      .rtl .leoquicklogin-slidebar.slidebar_top .leoquicklogin-slidebar-bottom {
+        left: 15px;
+        right: auto; }
+  .leoquicklogin-slidebar.push_slidebar_top {
+    display: block;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%); }
+    .rtl .leoquicklogin-slidebar.push_slidebar_top {
+      right: 0;
+      left: auto; }
+    .leoquicklogin-slidebar.push_slidebar_top.active {
+      visibility: visible;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0); }
+    .leoquicklogin-slidebar.push_slidebar_top .leoquicklogin-slidebar-bottom {
+      display: block; }
+  .leoquicklogin-slidebar.slidebar_bottom {
+    display: block;
+    bottom: 0;
+    left: 50%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transform: translate(-50%, 200%);
+    -moz-transform: translate(-50%, 200%);
+    -ms-transform: translate(-50%, 200%);
+    -o-transform: translate(-50%, 200%);
+    transform: translate(-50%, 200%); }
+    .leoquicklogin-slidebar.slidebar_bottom.active {
+      visibility: visible;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+    .leoquicklogin-slidebar.slidebar_bottom .leoquicklogin-slidebar-top {
+      display: block;
+      right: 15px; }
+      .rtl .leoquicklogin-slidebar.slidebar_bottom .leoquicklogin-slidebar-top {
+        left: 15px;
+        right: auto; }
+  .leoquicklogin-slidebar.push_slidebar_bottom {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(200%);
+    -moz-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    -o-transform: translateY(200%);
+    transform: translateY(200%); }
+    .rtl .leoquicklogin-slidebar.push_slidebar_bottom {
+      right: 0;
+      left: auto; }
+    .leoquicklogin-slidebar.push_slidebar_bottom.active {
+      visibility: visible;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0); }
+    .leoquicklogin-slidebar.push_slidebar_bottom .leoquicklogin-slidebar-top {
+      display: block; }
+  .leoquicklogin-slidebar .leoquicklogin-slidebar-top, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom {
+    position: absolute;
+    top: 13px;
+    z-index: 9;
+    margin: 0; }
+    .leoquicklogin-slidebar .leoquicklogin-slidebar-top button, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button {
+      background-color: transparent;
+      color: #FFFFFF;
+      padding: 0px;
+      display: block;
+      border: none;
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      z-index: 99;
+      outline: 0;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      border-radius: 0;
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
+      .leoquicklogin-slidebar .leoquicklogin-slidebar-top button span, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button span {
+        display: none; }
+      .leoquicklogin-slidebar .leoquicklogin-slidebar-top button i, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button i {
+        margin-right: 0; }
+        .rtl .leoquicklogin-slidebar .leoquicklogin-slidebar-top button i, .rtl .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button i {
+          margin-left: 0;
+          margin-right: inherit; }
+      .leoquicklogin-slidebar .leoquicklogin-slidebar-top button:hover, .leoquicklogin-slidebar .leoquicklogin-slidebar-top button:focus, .leoquicklogin-slidebar .leoquicklogin-slidebar-top button:active:focus, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button:hover, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button:focus, .leoquicklogin-slidebar .leoquicklogin-slidebar-bottom button:active:focus {
+        outline: 0;
+        color: #FFFFFF;
+        background: transparent; }
+
+.leoquicklogin-slidebar-top {
+  margin-bottom: 10px;
+  display: none;
+  text-align: right; }
+  .rtl .leoquicklogin-slidebar-top {
+    text-align: left; }
+
+.leoquicklogin-slidebar-top, .leoquicklogin-slidebar-bottom {
+  display: none;
+  text-align: right; }
+  .rtl .leoquicklogin-slidebar-top, .rtl .leoquicklogin-slidebar-bottom {
+    text-align: left; }
+
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR END*****************************/
+/*******************DONGND CSS FOR SOCIALLOGIN BEGIN *****************************/
+.lql-social-login {
+  margin-top: 10px;
+  padding: 20px 0;
+  border-top: 2px dashed #ebebeb;
+  text-align: center; }
+  .lql-social-login .lql-social-login-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px; }
+  .lql-social-login .social-login-bt {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    color: #FFFFFF;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px; }
+    .lql-social-login .social-login-bt .fa {
+      font-size: 16px;
+      line-height: 40px; }
+    .lql-social-login .social-login-bt.facebook-login-bt {
+      background: #3b5998; }
+      .lql-social-login .social-login-bt.facebook-login-bt:hover {
+        background: #314a92; }
+    .lql-social-login .social-login-bt.google-login-bt {
+      background: #e74c3c; }
+      .lql-social-login .social-login-bt.google-login-bt:hover {
+        background: #ea362f; }
+    .lql-social-login .social-login-bt.twitter-login-bt {
+      background: #1DA1F2; }
+      .lql-social-login .social-login-bt.twitter-login-bt:hover {
+        background: #3ca6e8; }
+
+.lql-social-modal .modal-dialog {
+  margin: 250px auto; }
+.lql-social-modal .modal-content {
+  border-radius: 0; }
+
+.lql-social-modal-mesg {
+  display: none;
+  text-align: center; }
+  .lql-social-modal-mesg.active {
+    display: block; }
+    .lql-social-modal-mesg.active span {
+      display: block;
+      border-top-color: #414141;
+      border-bottom-color: #414141; }
+  .lql-social-modal-mesg.error-login i {
+    color: #f0ad4e; }
+  .lql-social-modal-mesg.error-email i {
+    color: #f0ad4e; }
+  .lql-social-modal-mesg.success i {
+    color: #5cb85c; }
+
+/* login form */
+.ApQuicklogin {
+  float: right; }
+  .rtl .ApQuicklogin {
+    float: left; }
+  .ApQuicklogin > .dropdown .leo-login-title, .ApQuicklogin > .dropdown .leo-register-title, .ApQuicklogin > .dropup .leo-login-title, .ApQuicklogin > .dropup .leo-register-title {
+    padding: 0 15px 0 15px; }
+    .rtl .ApQuicklogin > .dropdown .leo-login-title, .rtl .ApQuicklogin > .dropdown .leo-register-title, .rtl .ApQuicklogin > .dropup .leo-login-title, .rtl .ApQuicklogin > .dropup .leo-register-title {
+      padding: 0 15px 0 15px; }
+  .ApQuicklogin > .dropdown button.close, .ApQuicklogin > .dropup button.close {
+    display: none; }
+  .ApQuicklogin > .dropdown .leo-dropdown-wrapper, .ApQuicklogin > .dropup .leo-dropdown-wrapper {
+    overflow: hidden;
+    margin-top: 2px;
+    padding: 0 15px;
+    left: auto;
+    right: 0;
+    border-radius: 0;
+    -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
+    -o-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
+    -ms-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24); }
+    .rtl .ApQuicklogin > .dropdown .leo-dropdown-wrapper, .rtl .ApQuicklogin > .dropup .leo-dropdown-wrapper {
+      left: 0;
+      right: auto; }
+    @media (max-width: 480px) {
+      .ApQuicklogin > .dropdown .leo-dropdown-wrapper, .ApQuicklogin > .dropup .leo-dropdown-wrapper {
+        width: auto;
+        margin: 20px 10px; } }
+
+.leo-login-form, .leo-register-form {
+  width: 100%; }
+
+.leo-quicklogin-modal {
+  z-index: 999999; }
+  .leo-quicklogin-modal .modal-dialog {
+    max-width: 400px;
+    margin: 100px auto; }
+    @media (max-width: 480px) {
+      .leo-quicklogin-modal .modal-dialog {
+        width: auto;
+        margin: 20px 10px; } }
+  .leo-quicklogin-modal .modal-header {
+    padding: 0;
+    border: none; }
+  .leo-quicklogin-modal .modal-content {
+    overflow: hidden;
+    border-radius: 0;
+    border: none; }
+  .leo-quicklogin-modal .modal-body {
+    padding: 0 15px; }
+  .leo-quicklogin-modal .modal-footer {
+    border: none;
+    padding: 0; }
+  .leo-quicklogin-modal button.close {
+    position: absolute;
+    top: 15px;
+    color: #FFFFFF;
+    display: block;
+    height: 25px;
+    width: 25px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+    outline: 0;
+    right: 15px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s; }
+    .rtl .leo-quicklogin-modal button.close {
+      left: 15px;
+      right: auto; }
+    .leo-quicklogin-modal button.close span {
+      font-size: 30px; }
+
+.leo-login-title,
+.leo-register-title {
+  text-align: left;
+  position: relative;
+  min-height: 56px;
+  margin: 0px -15px 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #19881d;
+  color: #FFFFFF;
+  padding: 8px 15px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center; }
+  .rtl .leo-login-title, .rtl
+  .leo-register-title {
+    text-align: right; }
+  .leo-login-title span,
+  .leo-register-title span {
+    color: #FFFFFF;
+    width: 100%; }
+  .leo-login-title button.close,
+  .leo-register-title button.close {
+    display: none; }
+
+.leo-login-title span, .leo-register-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px; }
+
+.lql-form-content label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #666666;
+  text-align: left; }
+  .rtl .lql-form-content label {
+    text-align: right; }
+  .lql-form-content label.newsletter {
+    max-width: 90%; }
+.lql-form-content .form-group {
+  margin-bottom: 15px; }
+  .lql-form-content .form-group .input-group-addon {
+    border-style: solid !important;
+    border-color: #d8d8d8 !important;
+    border-width: 1px 1px 1px 0; }
+  .lql-form-content .form-group .leoquicklogin-reset-pass-bt {
+    width: 100%; }
+.lql-form-content input {
+  border: 1px solid transparent; }
+  .lql-form-content input.form-control {
+    height: 41px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #d8d8d8;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -moz-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -ms-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s; }
+    .lql-form-content input.form-control:-webkit-autofill {
+      -moz-box-shadow: 0 0 0 30px white inset;
+      -webkit-box-shadow: 0 0 0 30px white inset;
+      -o-box-shadow: 0 0 0 30px white inset;
+      -ms-box-shadow: 0 0 0 30px white inset;
+      box-shadow: 0 0 0 30px white inset; }
+    .lql-form-content input.form-control:focus {
+      border-color: #19881d;
+      outline: 0; }
+  .lql-form-content input.lql-register-optin, .lql-form-content input.lql-register-newsletter {
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    float: left; }
+    .rtl .lql-form-content input.lql-register-optin, .rtl .lql-form-content input.lql-register-newsletter {
+      margin-left: 5px;
+      margin-right: inherit; }
+    .rtl .lql-form-content input.lql-register-optin, .rtl .lql-form-content input.lql-register-newsletter {
+      float: right; }
+.lql-form-content .form-checkbox {
+  margin-bottom: 0; }
+  .lql-form-content .form-checkbox .custom-checkbox {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center; }
+    .lql-form-content .form-checkbox .custom-checkbox input[type="checkbox"] + span {
+      border-color: #666666;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      box-flex: 0;
+      -webkit-flex: 0 0 15px;
+      -moz-flex: 0 0 15px;
+      -ms-flex: 0 0 15px;
+      flex: 0 0 15px;
+      vertical-align: top;
+      margin: 0px 5px 0px 0px;
+      margin: 0 5px 0 0; }
+      .rtl .lql-form-content .form-checkbox .custom-checkbox input[type="checkbox"] + span {
+        margin: 0 0 0 5px; }
+      .lql-form-content .form-checkbox .custom-checkbox input[type="checkbox"] + span .checkbox-checked {
+        margin: -3px -2px; }
+    .lql-form-content .form-checkbox .custom-checkbox label {
+      padding: 0 0 0 0; }
+      .rtl .lql-form-content .form-checkbox .custom-checkbox label {
+        padding: 0 0 0 0; }
+.lql-form-content .form-control-label {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  text-align: left; }
+  .rtl .lql-form-content .form-control-label {
+    text-align: right; }
+.lql-form-content .form-group-password, .lql-form-content .form-group-email {
+  position: relative;
+  display: table;
+  border-collapse: separate; }
+  .lql-form-content .form-group-password .form-control, .lql-form-content .form-group-password .input-group-addon, .lql-form-content .form-group-email .form-control, .lql-form-content .form-group-email .input-group-addon {
+    display: table-cell; }
+  .lql-form-content .form-group-password .input-group-addon, .lql-form-content .form-group-email .input-group-addon {
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 0; }
+    .lql-form-content .form-group-password .input-group-addon.user, .lql-form-content .form-group-email .input-group-addon.user {
+      background: url(../../../../assets/img/modules/leoquicklogin/img/user-icon-sm.png) no-repeat center; }
+    .lql-form-content .form-group-password .input-group-addon.key, .lql-form-content .form-group-email .input-group-addon.key {
+      background: url(../../../../assets/img/modules/leoquicklogin/img/key-icon.png) no-repeat center; }
+.lql-form-content .leo-has-error input {
+  border-color: red; }
+
+.lql-rememberme {
+  position: relative;
+  top: 2px;
+  margin-right: 4px; }
+
+.leoquicklogin-forgotpass, .lql-callregister-action {
+  color: #666666;
+  line-height: 1.42857143;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .leoquicklogin-forgotpass:hover, .lql-callregister-action:hover {
+    color: #1467c1; }
+
+.lql-login-bt, .lql-register-bt {
+  display: block;
+  width: 100%;
+  background-color: #121212;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.42857143;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+  .lql-login-bt:hover, .lql-register-bt:hover {
+    background-color: #1467c1;
+    border-color: #1467c1; }
+
+.page-authentication #content .lql-social-login + hr, body#checkout #content .lql-social-login + hr {
+  border: none; }
+
+/*# sourceMappingURL=front.css.map */
+/*********** Quick login dropdown ******/
+.dropdown .ap-quick-login .popup-title:after, .dropup .ap-quick-login .popup-title:after {
+  display: none; }
+.dropdown .ap-quick-login .popup-content, .dropup .ap-quick-login .popup-content {
+  margin: 0;
+  padding: 0 15px;
+  width: 300px;
+  overflow: hidden; }
+  @media (max-width: 480px) {
+    .dropdown .ap-quick-login .popup-content, .dropup .ap-quick-login .popup-content {
+      right: -95px; }
+      .rtl .dropdown .ap-quick-login .popup-content, .rtl .dropup .ap-quick-login .popup-content {
+        left: -95px;
+        right: auto; } }
+  .dropdown .ap-quick-login .popup-content .leo-login-title, .dropdown .ap-quick-login .popup-content .leo-register-title, .dropup .ap-quick-login .popup-content .leo-login-title, .dropup .ap-quick-login .popup-content .leo-register-title {
+    padding: 0;
+    margin: 0 0 10px;
+    background: transparent;
+    border: none; }
+    .dropdown .ap-quick-login .popup-content .leo-login-title span, .dropdown .ap-quick-login .popup-content .leo-register-title span, .dropup .ap-quick-login .popup-content .leo-login-title span, .dropup .ap-quick-login .popup-content .leo-register-title span {
+      font-size: 22px;
+      color: #121212; }
+    .dropdown .ap-quick-login .popup-content .leo-login-title button.close, .dropdown .ap-quick-login .popup-content .leo-register-title button.close, .dropup .ap-quick-login .popup-content .leo-login-title button.close, .dropup .ap-quick-login .popup-content .leo-register-title button.close {
+      display: none; }
+.dropdown .ap-quick-login.open .popup-content, .dropup .ap-quick-login.open .popup-content {
+  visibility: visible;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+/*# sourceMappingURL=front.css.map */
