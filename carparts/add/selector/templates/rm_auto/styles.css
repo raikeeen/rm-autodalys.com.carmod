@@ -209,8 +209,8 @@ span.CmSelFavBut{display:none; margin-right:5px !important; margin-top:5px; alig
 	a.CmSelModelLink{white-space:normal; max-width:unset;}
 	.CmGarageBlock{position:unset;}
 	.CmGarDropDown{right:unset; top:unset; left:0;}
-	.CmMobGarlock{display:block; align-self:flex-end; margin-left:3px;}
-	.CmGarageBlock{display:none;}
+	.CmMobGarlock{/*display:block;*/ align-self:flex-end; margin-left:3px;}
+	/*.CmGarageBlock{display:none;}*/
 	.CmSelModelImg{flex-direction:row; justify-content:space-between; width:100%;}
 	.CmSelGarItemWrap{flex-direction:column; padding-top:8px;}
 	.CmSelImgNameBl{width:95%;}

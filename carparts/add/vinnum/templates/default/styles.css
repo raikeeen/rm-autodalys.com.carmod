@@ -1,4 +1,4 @@
-.CmVinNumWrap{border-radius:4px; width:245px; padding:0px 0px 0px 0px; margin:2px auto; border: 1px solid #637a59; position:relative; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
+.CmVinNumWrap{border-radius:4px; /*width:245px;*/ padding:0px 0px 0px 0px; margin:2px auto; border: 1px solid #637a59; position:relative; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
 @media screen and (min-width: 1400px) {
 	.CmVinNumWrap {
 		margin:2px 8px;
