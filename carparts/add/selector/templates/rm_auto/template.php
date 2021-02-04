@@ -84,11 +84,11 @@ MsLang - Constant: currently selected Language code (en,ru,..)
     </div>
     <?if($vPicture){?>
         <a href="<?=$SelectedLink?>">
-            <div class="CmMSelectVehicle nav-buttons" style="<?if($vPicture){?>background-image:url(<?=$vPicture?>);<?}else{?>background-position:0px -19px;<?}?>">
+            <div class="CmMSelectVehicle nav-buttons" id="mobile-img" style="<?if($vPicture){?>background-image:url(<?=$vPicture?>);<?}else{?>background-position:0px -19px;<?}?>">
             </div>
         </a>
     <?}else{?>
-        <div class="CmMSelectVehicle nav-buttons" style="<?if($vPicture){?>background-image:url(<?=$vPicture?>);<?}else{?>background-position:0px -19px;<?}?>">
+        <div class="CmMSelectVehicle nav-buttons" id="mobile-img" style="<?if($vPicture){?>background-image:url(<?=$vPicture?>);<?}else{?>background-position:0px -19px;<?}?>">
         </div>
     <?}?>
     <?if($vPicture){

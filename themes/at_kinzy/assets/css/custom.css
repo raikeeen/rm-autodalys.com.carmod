@@ -119,3 +119,9 @@ carmod css
     padding-top: 5px;
     float: right;
 }
+@media screen and (max-width: 640px) {
+    #mobile-img{
+        left: 40%;
+    }
+
+}
