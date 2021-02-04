@@ -87,7 +87,7 @@ li.CmActiveTabManuf{opacity:1 !important; background-color:#f2f2f2 !important;}
 .boxSections_x{width:100%; display:grid; display:-ms-grid; grid-gap:5px; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); -ms-grid-columns:1fr 20px 1fr 20px 1fr 20px 1fr; position:relative; margin-bottom:20px; margin-top:5px;}
 .boxSect_x{display:flex; justify-content:space-between; align-items:center; height:175px; transition:0.3s; border-radius:3px; background-color:#ffffff; border:1px solid #c7c7c7; position:relative;}
 .boxSect_x:hover .CmSectImgBL{opacity:1; margin:-3px -3px 0px 0px; transition:all 0.3s;}
-.CmSectImgBL{background-repeat:no-repeat; width:150px; height:130px; background-image:url(../_images/sections/sections.png); background-size:554%; position:absolute; right:0%; top:7%; opacity:0.6;}
+.CmSectImgBL{background-repeat:no-repeat; width:150px; height:130px; background-image:url(../_images/sections/sections.png); background-size:554%; position:absolute; right:0%; top:7%; /*opacity:0.6;*/}
 .CmSectImgBL:hover{}
 .CmSec_100019{background-position:81% 41%;}
 .CmSec_100005, .CmSec_200047{background-position:61% 1%;}

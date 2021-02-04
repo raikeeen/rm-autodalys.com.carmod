@@ -95,3 +95,13 @@ $(document).click(function(event) { //Close on click Out Side
 });
 
 </script>
+
+<!--<script type="text/javascript">
+    $(document).ready(function($){
+        var valueSearch = $('#valueSearch').attr('id');
+        if(valueSearch.length === 17){
+
+        } else
+
+    });
+</script>-->
