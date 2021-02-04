@@ -75,14 +75,7 @@
     z-index: 1000;
 }
 
-.img-banner{
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    top: -40px;
-    left: -50px;
-    clip: rect(40px 1400px 400px 70px);
-}
+
 
 .nav-buttons{
     border-radius: 10px;
@@ -124,4 +117,25 @@ carmod css
         left: 40%;
     }
 
+}
+
+@media screen and (min-width: 1201px) {
+    .img-banner{
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: -40px;
+        left: -50px;
+        clip: rect(40px 1400px 400px 70px);
+    }
+}
+@media screen and (max-width: 900px) {
+    .img-banner{
+        padding-top: 3%;
+        width: 100%;
+        margin: 0;
+        top: -40px;
+        left: -50px;
+        clip: rect(40px 1400px 400px 70px);
+    }
 }
