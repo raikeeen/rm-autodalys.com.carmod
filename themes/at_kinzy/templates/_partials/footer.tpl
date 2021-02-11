@@ -42,33 +42,19 @@
     {if isset($fullwidth_hook.displayFooter) AND $fullwidth_hook.displayFooter == 0}
       </div>
     {/if}
-      <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-          window.fbAsyncInit = function() {
-              FB.init({
-                  xfbml            : true,
-                  version          : 'v9.0'
-              });
-          };
-
-          (function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-              fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
-           attribution=setup_tool
-           page_id="111236880248472"
-           theme_color="#1467c1"
-           logged_in_greeting="Sveiki! Turite klausimų?"
-           logged_out_greeting="Sveiki! Turite klausimų?">
-      </div>
-  </div>
+      <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6025436a918aa261273dfd8d/1eu8oumcm';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 {/block}
 {block name='hook_footer_after'}
   <div class="footer-bottom">
